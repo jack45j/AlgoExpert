@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		DB6F19272611D185000FD1BD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6F19262611D185000FD1BD /* main.swift */; };
+		DB6F1947261BFE37000FD1BD /* First Duplicate Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6F1946261BFE37000FD1BD /* First Duplicate Value.swift */; };
+		DB6F194B261C045D000FD1BD /* Program.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6F194A261C045D000FD1BD /* Program.swift */; };
+		DB6F194F261C0DE5000FD1BD /* Longest Peak.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6F194E261C0DE5000FD1BD /* Longest Peak.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		DB6F19232611D185000FD1BD /* AlgoExpert */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AlgoExpert; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB6F19262611D185000FD1BD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		DB6F1946261BFE37000FD1BD /* First Duplicate Value.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "First Duplicate Value.swift"; sourceTree = "<group>"; };
+		DB6F194A261C045D000FD1BD /* Program.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Program.swift; sourceTree = "<group>"; };
+		DB6F194E261C0DE5000FD1BD /* Longest Peak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Longest Peak.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +63,10 @@
 		DB6F19252611D185000FD1BD /* AlgoExpert */ = {
 			isa = PBXGroup;
 			children = (
+				DB6F194A261C045D000FD1BD /* Program.swift */,
 				DB6F19262611D185000FD1BD /* main.swift */,
+				DB6F1946261BFE37000FD1BD /* First Duplicate Value.swift */,
+				DB6F194E261C0DE5000FD1BD /* Longest Peak.swift */,
 			);
 			path = AlgoExpert;
 			sourceTree = "<group>";
@@ -119,7 +128,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB6F1947261BFE37000FD1BD /* First Duplicate Value.swift in Sources */,
 				DB6F19272611D185000FD1BD /* main.swift in Sources */,
+				DB6F194F261C0DE5000FD1BD /* Longest Peak.swift in Sources */,
+				DB6F194B261C045D000FD1BD /* Program.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

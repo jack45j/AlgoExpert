@@ -1,0 +1,38 @@
+//
+//  First Duplicate Value.swift
+//  AlgoExpert
+//
+//  Created by 林翌埕-20001107 on 2021/4/6.
+//
+
+import Foundation
+
+extension Program {
+    static func firstDuplicateValue(_ array: inout [Int]) -> Int {
+        var hash: [Int: Int] = [:]
+        
+        for (idx, val) in array.enumerated() {
+            if let _ = hash[val] {
+                return val
+            } else {
+                hash[val] = idx
+            }
+        }
+        
+        return -1
+    }
+    
+    static func firstDuplicateValueWithoutExtraSpace(_ array: inout [Int]) -> Int {
+        for val in array {
+            let idx = abs(val) - 1
+            if array[idx] < 0 {
+                return val
+            } else {
+                array[idx] *= -1
+            }
+        }
+        
+        return -1
+    }
+}
+
