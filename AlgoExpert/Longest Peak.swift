@@ -9,32 +9,36 @@ import Foundation
 
 extension Program {
     static func longestPeak(array: [Int]) -> Int {
-        func isPeak(_ idx: Int) -> Bool {
-            guard idx > 0 && idx < array.count - 1 else { return false }
-            return array[idx - 1] < array[idx] && array[idx + 1] < array[idx]
-        }
-        
+        guard array.count >= 3 else { return 0 }
         var longest = 0
+        var idx = 1
+        var isPeak: Bool { return array[idx - 1] < array[idx] && array[idx] > array[idx + 1] }
         
-        for currentIdx in 1 ..< array.count - 1 {
-            if isPeak(currentIdx) {
-                var leftPointer = currentIdx - 1
-                var rightPointer = currentIdx + 1
-                while array[leftPointer] > array[leftPointer - 1] {
-                    leftPointer -= 1
-                }
-                
-                while array[rightPointer] > array[rightPointer + 1] {
-                    rightPointer += 1
-                }
-                
-                if rightPointer - leftPointer > longest {
-                    longest = rightPointer - leftPointer
-                }
+        while idx < array.count - 1 {
+            if !isPeak {
+                idx += 1
+                continue
             }
+            
+            var leftIdx = idx - 1
+            while leftIdx > 0, array[leftIdx - 1] < array[leftIdx] {
+                leftIdx -= 1
+                continue
+            }
+            
+            var rightIdx = idx + 1
+            while rightIdx < array.count - 1, array[rightIdx + 1] < array[rightIdx] {
+                rightIdx += 1
+                continue
+            }
+            
+            if (rightIdx - leftIdx + 1) > longest {
+                longest = (rightIdx - leftIdx + 1)
+            }
+            idx = rightIdx
         }
         
-        return longest + 1
+        return longest
     }
 }
 
