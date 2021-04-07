@@ -15,6 +15,7 @@
 		4600D976261E2CD80032BE3A /* Tournament Winner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4600D96A261E2CD80032BE3A /* Tournament Winner.swift */; };
 		4600D977261E2CD80032BE3A /* Monotonic Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4600D96B261E2CD80032BE3A /* Monotonic Array.swift */; };
 		4600D978261E2CD80032BE3A /* Smallest Difference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4600D96C261E2CD80032BE3A /* Smallest Difference.swift */; };
+		4600D980261E2E420032BE3A /* Four Number Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4600D97F261E2E420032BE3A /* Four Number Sum.swift */; };
 		DB6F19272611D185000FD1BD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6F19262611D185000FD1BD /* main.swift */; };
 		DB6F1947261BFE37000FD1BD /* First Duplicate Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6F1946261BFE37000FD1BD /* First Duplicate Value.swift */; };
 		DB6F194B261C045D000FD1BD /* Program.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6F194A261C045D000FD1BD /* Program.swift */; };
@@ -42,6 +43,7 @@
 		4600D96A261E2CD80032BE3A /* Tournament Winner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Tournament Winner.swift"; sourceTree = "<group>"; };
 		4600D96B261E2CD80032BE3A /* Monotonic Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Monotonic Array.swift"; sourceTree = "<group>"; };
 		4600D96C261E2CD80032BE3A /* Smallest Difference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Smallest Difference.swift"; sourceTree = "<group>"; };
+		4600D97F261E2E420032BE3A /* Four Number Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Four Number Sum.swift"; sourceTree = "<group>"; };
 		DB6F19232611D185000FD1BD /* AlgoExpert */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AlgoExpert; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB6F19262611D185000FD1BD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		DB6F1946261BFE37000FD1BD /* First Duplicate Value.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "First Duplicate Value.swift"; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 				DB6F194E261C0DE5000FD1BD /* Longest Peak.swift */,
 				4600D963261E2CD70032BE3A /* Array Of Products.swift */,
 				DB6F1946261BFE37000FD1BD /* First Duplicate Value.swift */,
+				4600D97F261E2E420032BE3A /* Four Number Sum.swift */,
 			);
 			path = AlgoExpert;
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 				DB6F19272611D185000FD1BD /* main.swift in Sources */,
 				4600D96E261E2CD80032BE3A /* Move Element To End.swift in Sources */,
 				DB6F194F261C0DE5000FD1BD /* Longest Peak.swift in Sources */,
+				4600D980261E2E420032BE3A /* Four Number Sum.swift in Sources */,
 				4600D978261E2CD80032BE3A /* Smallest Difference.swift in Sources */,
 				4600D976261E2CD80032BE3A /* Tournament Winner.swift in Sources */,
 				4600D96F261E2CD80032BE3A /* Array Of Products.swift in Sources */,
@@ -291,6 +295,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 79399T3H3C;
 				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -302,6 +307,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 79399T3H3C;
 				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
