@@ -16,6 +16,8 @@
 		4600D977261E2CD80032BE3A /* Monotonic Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4600D96B261E2CD80032BE3A /* Monotonic Array.swift */; };
 		4600D978261E2CD80032BE3A /* Smallest Difference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4600D96C261E2CD80032BE3A /* Smallest Difference.swift */; };
 		4600D980261E2E420032BE3A /* Four Number Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4600D97F261E2E420032BE3A /* Four Number Sum.swift */; };
+		46548D292622E6E8000F9CA7 /* Merge Overlapping Intervals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46548D282622E6E8000F9CA7 /* Merge Overlapping Intervals.swift */; };
+		46548D2F2622EB40000F9CA7 /* Find Closest Value In BST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46548D2E2622EB40000F9CA7 /* Find Closest Value In BST.swift */; };
 		DB6F19272611D185000FD1BD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6F19262611D185000FD1BD /* main.swift */; };
 		DB6F1947261BFE37000FD1BD /* First Duplicate Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6F1946261BFE37000FD1BD /* First Duplicate Value.swift */; };
 		DB6F194B261C045D000FD1BD /* Program.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6F194A261C045D000FD1BD /* Program.swift */; };
@@ -44,6 +46,8 @@
 		4600D96B261E2CD80032BE3A /* Monotonic Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Monotonic Array.swift"; sourceTree = "<group>"; };
 		4600D96C261E2CD80032BE3A /* Smallest Difference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Smallest Difference.swift"; sourceTree = "<group>"; };
 		4600D97F261E2E420032BE3A /* Four Number Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Four Number Sum.swift"; sourceTree = "<group>"; };
+		46548D282622E6E8000F9CA7 /* Merge Overlapping Intervals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Merge Overlapping Intervals.swift"; sourceTree = "<group>"; };
+		46548D2E2622EB40000F9CA7 /* Find Closest Value In BST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Find Closest Value In BST.swift"; sourceTree = "<group>"; };
 		DB6F19232611D185000FD1BD /* AlgoExpert */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AlgoExpert; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB6F19262611D185000FD1BD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		DB6F1946261BFE37000FD1BD /* First Duplicate Value.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "First Duplicate Value.swift"; sourceTree = "<group>"; };
@@ -62,6 +66,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		46548D2C2622EB21000F9CA7 /* Arrays */ = {
+			isa = PBXGroup;
+			children = (
+				4600D96A261E2CD80032BE3A /* Tournament Winner.swift */,
+				4600D965261E2CD70032BE3A /* Non-Constructible Change.swift */,
+				4600D968261E2CD70032BE3A /* Three Number Sum.swift */,
+				4600D96C261E2CD80032BE3A /* Smallest Difference.swift */,
+				4600D962261E2CD70032BE3A /* Move Element To End.swift */,
+				4600D96B261E2CD80032BE3A /* Monotonic Array.swift */,
+				4600D967261E2CD70032BE3A /* Spiral Traverse.swift */,
+				DB6F194E261C0DE5000FD1BD /* Longest Peak.swift */,
+				4600D963261E2CD70032BE3A /* Array Of Products.swift */,
+				DB6F1946261BFE37000FD1BD /* First Duplicate Value.swift */,
+				46548D282622E6E8000F9CA7 /* Merge Overlapping Intervals.swift */,
+				4600D97F261E2E420032BE3A /* Four Number Sum.swift */,
+			);
+			path = Arrays;
+			sourceTree = "<group>";
+		};
+		46548D312622EB45000F9CA7 /* Binary Search Trees */ = {
+			isa = PBXGroup;
+			children = (
+				46548D2E2622EB40000F9CA7 /* Find Closest Value In BST.swift */,
+			);
+			path = "Binary Search Trees";
+			sourceTree = "<group>";
+		};
 		DB6F191A2611D185000FD1BD = {
 			isa = PBXGroup;
 			children = (
@@ -83,17 +114,8 @@
 			children = (
 				DB6F194A261C045D000FD1BD /* Program.swift */,
 				DB6F19262611D185000FD1BD /* main.swift */,
-				4600D96A261E2CD80032BE3A /* Tournament Winner.swift */,
-				4600D965261E2CD70032BE3A /* Non-Constructible Change.swift */,
-				4600D968261E2CD70032BE3A /* Three Number Sum.swift */,
-				4600D96C261E2CD80032BE3A /* Smallest Difference.swift */,
-				4600D962261E2CD70032BE3A /* Move Element To End.swift */,
-				4600D96B261E2CD80032BE3A /* Monotonic Array.swift */,
-				4600D967261E2CD70032BE3A /* Spiral Traverse.swift */,
-				DB6F194E261C0DE5000FD1BD /* Longest Peak.swift */,
-				4600D963261E2CD70032BE3A /* Array Of Products.swift */,
-				DB6F1946261BFE37000FD1BD /* First Duplicate Value.swift */,
-				4600D97F261E2E420032BE3A /* Four Number Sum.swift */,
+				46548D2C2622EB21000F9CA7 /* Arrays */,
+				46548D312622EB45000F9CA7 /* Binary Search Trees */,
 			);
 			path = AlgoExpert;
 			sourceTree = "<group>";
@@ -160,8 +182,10 @@
 				4600D974261E2CD80032BE3A /* Three Number Sum.swift in Sources */,
 				4600D977261E2CD80032BE3A /* Monotonic Array.swift in Sources */,
 				DB6F19272611D185000FD1BD /* main.swift in Sources */,
+				46548D292622E6E8000F9CA7 /* Merge Overlapping Intervals.swift in Sources */,
 				4600D96E261E2CD80032BE3A /* Move Element To End.swift in Sources */,
 				DB6F194F261C0DE5000FD1BD /* Longest Peak.swift in Sources */,
+				46548D2F2622EB40000F9CA7 /* Find Closest Value In BST.swift in Sources */,
 				4600D980261E2E420032BE3A /* Four Number Sum.swift in Sources */,
 				4600D978261E2CD80032BE3A /* Smallest Difference.swift in Sources */,
 				4600D976261E2CD80032BE3A /* Tournament Winner.swift in Sources */,
