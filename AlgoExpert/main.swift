@@ -7,13 +7,13 @@
 
 import Foundation
 
-var array = [5, -5, -2, 2, 3, -3]
-var array1 = [1, 2, 3]
+var array = [1, 2, 4, 7, 10, 11, 7, 12, 6, 7, 16, 18, 19]
+var array1 = [1, 0]
 var emptyArray: [Int] = []
 var SingleEleArray: [Int] = [1]
 var equalEleArray: [Int] = [1, 1, 1, 1, 1, 1]
 
 
 
-print(Program.fourNumberSum(array: array, targetSum: 0))
+print(Program.subarraySort(array: array1))
 
