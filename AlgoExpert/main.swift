@@ -7,7 +7,7 @@
 
 import Foundation
 
-var array = [1, 2, 4, 7, 10, 11, 7, 12, 6, 7, 16, 18, 19]
+var array = [4, 2, 1, 3, 6]
 var array1 = [1, 0]
 var emptyArray: [Int] = []
 var SingleEleArray: [Int] = [1]
@@ -15,5 +15,5 @@ var equalEleArray: [Int] = [1, 1, 1, 1, 1, 1]
 
 
 
-print(Program.subarraySort(array: array1))
+print(Program.largestRange(array: array))
 
