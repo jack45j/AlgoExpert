@@ -21,16 +21,19 @@ var equalEleArray: [Int] = [1, 1, 1, 1, 1, 1]
     
 
 let root = BST(value: 10)
-      root.left = BST(value: 5)
-      root.left!.left = BST(value: 2)
-      root.left!.left!.left = BST(value: 1)
-      root.left!.right = BST(value: 5)
-      root.right = BST(value: 15)
-      root.right!.left = BST(value: 13)
-      root.right!.left!.right = BST(value: 14)
-      root.right!.right = BST(value: 22)
-    
-var rootTree = root.insert(value: 12)
 
-print(root.insert(value: 12))
+root.left = .init(value: 5)
+root.left?.left = .init(value: 2)
+root.left?.left?.left = .init(value: 1)
+root.left?.right = .init(value: 5)
+root.left?.right?.right = .init(value: 11)
+
+root.right = .init(value: 15)
+root.right?.left = .init(value: 13)
+root.right?.left?.right = .init(value: 14)
+root.right?.right = .init(value: 22)
+
+var rootTree = root.remove(value: 10, parentNode: nil)
+
+print(Program.binarySearchTree.validateBst(tree: root))
 
