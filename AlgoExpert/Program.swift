@@ -8,7 +8,7 @@
 import Foundation
 
 class Program {
-    static let tree = Tree.shared
+    static let binarySearchTree = BinarySearchTree.shared
     static let arrays = Arrays.shared
     static let greedy = GreedyAlgorithm.shared
 }

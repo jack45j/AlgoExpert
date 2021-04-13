@@ -7,6 +7,6 @@
 
 import Foundation
 
-class Tree {
-    static let shared = Tree()
+class BinarySearchTree {
+    static let shared = BinarySearchTree()
 }

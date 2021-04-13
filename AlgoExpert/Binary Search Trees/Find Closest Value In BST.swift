@@ -7,19 +7,35 @@
 
 import Foundation
 
-extension Tree {
+extension BinarySearchTree {
     func findClosestValueInBST(tree: BST?, target: Int) -> Int {
         guard let tree = tree else { return 0 }
         var closest = tree.value
-        return algoSolution(tree: tree, target: target, closest: &closest)
+        search(node: tree, target: target, closest: &closest)
+        return closest
     }
     
-    private func search(node: BST?, target: Int, closest: inout Int) -> Int {
-        guard let node = node else { return closest }
-        if target - node.value < closest {
-            
+    private func search(node: BST?, target: Int, closest: inout Int) {
+        guard let node = node else { return }
+        print(node.value)
+        if abs(target - closest) > abs(target - node.value) {
+            // 更靠近
+            closest = node.value
         }
-        return -1
+        
+        if target < node.value {
+            // 小於所以找左邊
+            if let left = node.left {
+                search(node: left, target: target, closest: &closest)
+            }
+        } else if target > node.value {
+            // 大於所以找右邊
+            if let right = node.right {
+                search(node: right, target: target, closest: &closest)
+            }
+        } else {
+            return
+        }
     }
     
     

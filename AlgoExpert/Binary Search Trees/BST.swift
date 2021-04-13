@@ -17,4 +17,10 @@ class BST {
         left = nil
         right = nil
     }
+    
+    func dump() {
+//        while
+//        print(self.value)
+//        print()
+    }
 }
