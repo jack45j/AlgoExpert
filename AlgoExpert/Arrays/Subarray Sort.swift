@@ -7,9 +7,9 @@
 
 import Foundation
 
-extension Program {
+extension Arrays {
 	
-	static func subarraySort(array: [Int]) -> [Int] {
+	func subarraySort(array: [Int]) -> [Int] {
 		
 		guard array.count > 1 else { return [-1, -1] }
 		

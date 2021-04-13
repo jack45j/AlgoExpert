@@ -25,6 +25,11 @@
 		DB6F1947261BFE37000FD1BD /* First Duplicate Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6F1946261BFE37000FD1BD /* First Duplicate Value.swift */; };
 		DB6F194B261C045D000FD1BD /* Program.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6F194A261C045D000FD1BD /* Program.swift */; };
 		DB6F194F261C0DE5000FD1BD /* Longest Peak.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6F194E261C0DE5000FD1BD /* Longest Peak.swift */; };
+		DBA618842625364200F4987A /* BST.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA618832625364200F4987A /* BST.swift */; };
+		DBA618892625441100F4987A /* Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA618882625441100F4987A /* Tree.swift */; };
+		DBA6188C2625666500F4987A /* Arrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA6188B2625666500F4987A /* Arrays.swift */; };
+		DBA6188F262568A100F4987A /* GreedyA.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA6188E262568A100F4987A /* GreedyA.swift */; };
+		DBA61892262568DF00F4987A /* Minimum Waiting Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA61891262568DF00F4987A /* Minimum Waiting Time.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -59,6 +64,11 @@
 		DB6F1946261BFE37000FD1BD /* First Duplicate Value.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "First Duplicate Value.swift"; sourceTree = "<group>"; };
 		DB6F194A261C045D000FD1BD /* Program.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Program.swift; sourceTree = "<group>"; };
 		DB6F194E261C0DE5000FD1BD /* Longest Peak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Longest Peak.swift"; sourceTree = "<group>"; };
+		DBA618832625364200F4987A /* BST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BST.swift; sourceTree = "<group>"; };
+		DBA618882625441100F4987A /* Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tree.swift; sourceTree = "<group>"; };
+		DBA6188B2625666500F4987A /* Arrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arrays.swift; sourceTree = "<group>"; };
+		DBA6188E262568A100F4987A /* GreedyA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreedyA.swift; sourceTree = "<group>"; };
+		DBA61891262568DF00F4987A /* Minimum Waiting Time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Minimum Waiting Time.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +85,7 @@
 		46548D2C2622EB21000F9CA7 /* Arrays */ = {
 			isa = PBXGroup;
 			children = (
+				DBA6188B2625666500F4987A /* Arrays.swift */,
 				4600D96A261E2CD80032BE3A /* Tournament Winner.swift */,
 				4600D965261E2CD70032BE3A /* Non-Constructible Change.swift */,
 				4600D968261E2CD70032BE3A /* Three Number Sum.swift */,
@@ -97,6 +108,8 @@
 		46548D312622EB45000F9CA7 /* Binary Search Trees */ = {
 			isa = PBXGroup;
 			children = (
+				DBA618882625441100F4987A /* Tree.swift */,
+				DBA618832625364200F4987A /* BST.swift */,
 				46548D2E2622EB40000F9CA7 /* Find Closest Value In BST.swift */,
 			);
 			path = "Binary Search Trees";
@@ -125,8 +138,18 @@
 				DB6F19262611D185000FD1BD /* main.swift */,
 				46548D2C2622EB21000F9CA7 /* Arrays */,
 				46548D312622EB45000F9CA7 /* Binary Search Trees */,
+				DBA618942625690000F4987A /* GreedyAlgorithm */,
 			);
 			path = AlgoExpert;
+			sourceTree = "<group>";
+		};
+		DBA618942625690000F4987A /* GreedyAlgorithm */ = {
+			isa = PBXGroup;
+			children = (
+				DBA6188E262568A100F4987A /* GreedyA.swift */,
+				DBA61891262568DF00F4987A /* Minimum Waiting Time.swift */,
+			);
+			path = GreedyAlgorithm;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,6 +214,7 @@
 				4600D974261E2CD80032BE3A /* Three Number Sum.swift in Sources */,
 				4600D977261E2CD80032BE3A /* Monotonic Array.swift in Sources */,
 				DB6F19272611D185000FD1BD /* main.swift in Sources */,
+				DBA618892625441100F4987A /* Tree.swift in Sources */,
 				46548D292622E6E8000F9CA7 /* Merge Overlapping Intervals.swift in Sources */,
 				4600D96E261E2CD80032BE3A /* Move Element To End.swift in Sources */,
 				DB6F194F261C0DE5000FD1BD /* Longest Peak.swift in Sources */,
@@ -201,8 +225,12 @@
 				4600D978261E2CD80032BE3A /* Smallest Difference.swift in Sources */,
 				4600D976261E2CD80032BE3A /* Tournament Winner.swift in Sources */,
 				4600D96F261E2CD80032BE3A /* Array Of Products.swift in Sources */,
+				DBA6188C2625666500F4987A /* Arrays.swift in Sources */,
+				DBA61892262568DF00F4987A /* Minimum Waiting Time.swift in Sources */,
 				DB6F194B261C045D000FD1BD /* Program.swift in Sources */,
 				4600D973261E2CD80032BE3A /* Spiral Traverse.swift in Sources */,
+				DBA6188F262568A100F4987A /* GreedyA.swift in Sources */,
+				DBA618842625364200F4987A /* BST.swift in Sources */,
 				46548D3426231199000F9CA7 /* Subarray Sort.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,8 +7,8 @@
 
 import Foundation
 
-extension Program {
-	static func largestRange(array: [Int]) -> [Int] {
+extension Arrays {
+	func largestRange(array: [Int]) -> [Int] {
 		var bestResult = [0, 0]
 		var hash: [Int: Bool] = [:]
 		for val in array {

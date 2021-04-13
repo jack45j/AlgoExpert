@@ -7,8 +7,8 @@
 
 import Foundation
 
-extension Program {
-	static func moveElementToEnd(_ array: inout [Int], _ toMove: Int) -> [Int] {
+extension Arrays {
+	func moveElementToEnd(_ array: inout [Int], _ toMove: Int) -> [Int] {
 		var leftP = 0, rightP = array.count - 1
 		
 		while leftP < rightP {

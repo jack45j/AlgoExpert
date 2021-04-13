@@ -7,8 +7,8 @@
 
 import Foundation
 
-extension Program {
-	static func smallestDifference(arrayOne: inout [Int], arrayTwo: inout [Int]) -> [Int] {
+extension Arrays {
+	func smallestDifference(arrayOne: inout [Int], arrayTwo: inout [Int]) -> [Int] {
 				
 		var leftPointer = 0, rightPointer = 0
 		var smallestCombination: [Int] = [arrayOne[leftPointer], arrayTwo[rightPointer]]

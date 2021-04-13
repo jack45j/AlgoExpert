@@ -7,4 +7,8 @@
 
 import Foundation
 
-class Program {}
+class Program {
+    static let tree = Tree.shared
+    static let arrays = Arrays.shared
+    static let greedy = GreedyAlgorithm.shared
+}

@@ -7,8 +7,8 @@
 
 import Foundation
 
-extension Program {
-	static func minRewards(_ scores: [Int]) -> Int {
+extension Arrays {
+	func minRewards(_ scores: [Int]) -> Int {
 		var result = [Int]()
 		for idx in 0 ..< scores.count {
 			if result.isEmpty {

@@ -8,8 +8,8 @@
 import Foundation
 
 let HOME_TEAM_WON = 1
-extension Program {
-	static func tournamentWinner(_ competitions: [[String]], _ results: [Int]) -> String {
+extension Arrays {
+	func tournamentWinner(_ competitions: [[String]], _ results: [Int]) -> String {
 		var record: [String: Int] = [:]
 		var bestTeam = ""
 		

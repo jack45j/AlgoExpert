@@ -7,8 +7,8 @@
 
 import Foundation
 
-extension Program {
-	static func arrayOfProducts(_ array: [Int]) -> [Int] {
+extension Arrays {
+	func arrayOfProducts(_ array: [Int]) -> [Int] {
 		var result: [Int] = []
 		for i in 0..<array.count {
 			var multiNum = 1

@@ -7,8 +7,8 @@
 
 import Foundation
 
-extension Program {
-	static func fourNumberSum(array: [Int], targetSum: Int) -> [[Int]] {
+extension Arrays {
+	func fourNumberSum(array: [Int], targetSum: Int) -> [[Int]] {
 		
 		var hash: [Int: [[Int]]] = [:]
 		var result = [[Int]]()

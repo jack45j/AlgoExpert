@@ -7,8 +7,8 @@
 
 import Foundation
 
-extension Program {
-	static func isMonotonic(array: [Int]) -> Bool {
+extension Arrays {
+	func isMonotonic(array: [Int]) -> Bool {
 		guard array.count > 1 else { return true }
 		var increament = false
 		var decreament = false

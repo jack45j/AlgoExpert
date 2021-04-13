@@ -7,8 +7,8 @@
 
 import Foundation
 
-extension Program {
-    static func longestPeak(array: [Int]) -> Int {
+extension Arrays {
+    func longestPeak(array: [Int]) -> Int {
         guard array.count >= 3 else { return 0 }
         var longest = 0
         var idx = 1

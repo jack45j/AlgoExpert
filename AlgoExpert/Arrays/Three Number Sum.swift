@@ -7,8 +7,8 @@
 
 import Foundation
 
-extension Program {
-	static func threeNumberSum(array: inout [Int], targetSum: Int) -> [[Int]] {
+extension Arrays {
+	func threeNumberSum(array: inout [Int], targetSum: Int) -> [[Int]] {
 		array.sort()
 		print(array)
 		var result: [[Int]] = []
@@ -36,12 +36,12 @@ extension Program {
 		return result
 	}
 	
-	private static func resetPointers(left: inout Int, right: inout Int, currentIdx: Int, arrayCount: Int) {
+	private func resetPointers(left: inout Int, right: inout Int, currentIdx: Int, arrayCount: Int) {
 		left = currentIdx + 1
 		right = arrayCount - 1
 	}
 	
-	private static func sumThreeNum(_ num1: Int, _ num2: Int, _ num3: Int) -> Int {
+	private func sumThreeNum(_ num1: Int, _ num2: Int, _ num3: Int) -> Int {
 		return num1 + num2 + num3
 	}
 }

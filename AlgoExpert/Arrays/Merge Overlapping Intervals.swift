@@ -7,8 +7,8 @@
 
 import Foundation
 
-extension Program {
-    static func mergeOverlappingIntervals(_ intervals: [[Int]]) -> [[Int]] {
+extension Arrays {
+    func mergeOverlappingIntervals(_ intervals: [[Int]]) -> [[Int]] {
         var result: [[Int]] = []
         var currentIdx = 0
         let sortedIntervals = intervals.sorted(by: { $0[0] < $1[0] })

@@ -7,8 +7,8 @@
 
 import Foundation
 
-extension Program {
-	static func spiralTraverse(array: [[Int]]) -> [Int] {
+extension Arrays {
+	func spiralTraverse(array: [[Int]]) -> [Int] {
 		var startColumn = 0
 		var endColumn = array[startColumn].count - 1
 		var startRow = 0
