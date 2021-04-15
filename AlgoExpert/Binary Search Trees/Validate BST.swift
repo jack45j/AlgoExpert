@@ -11,4 +11,9 @@ extension BinarySearchTree {
 	func validateBst(tree: BST) -> Bool {
 		return true
 	}
+    
+    fileprivate func validateBST(tree: BST) {
+        
+    }
 }
+
