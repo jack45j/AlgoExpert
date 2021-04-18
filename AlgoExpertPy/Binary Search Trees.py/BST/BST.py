@@ -47,7 +47,9 @@ class BST:
                     currentNode.value = currentNode.right.getMinValue()
                     currentNode.right.remove(currentNode.value, currentNode)
                 elif parent is None:
+                    # top most node AND only has single child node.
                     if currentNode.left is not None:
+                        # Notice the order of assignee left or right node.
                         currentNode.value = currentNode.left.value
                         currentNode.right = currentNode.left.right
                         currentNode.left = currentNode.left.left
@@ -56,6 +58,8 @@ class BST:
                         currentNode.left = currentNode.right.left
                         currentNode.right = currentNode.right.right
                     else:
+                        # single node tree. 
+                        # do nothing.
                         pass
                 elif parent.left == currentNode:
                     parent.left = currentNode.left if currentNode.left is not None else currentNode.right
@@ -69,19 +73,29 @@ class BST:
             return self.left.getMinValue()
         else: return self.value
 
-root = BST(10)
-root.left = BST(5)
-root.left.left = BST(2)
-root.left.left.left = BST(1)
-root.left.right = BST(5)
-root.right = BST(15)
-root.right.left = BST(13)
-root.right.left.right = BST(14)
-root.right.right = BST(22)
 
-# root.insert(12)
-# print(root.right.left.left.value == 12)
-root.remove(10)
-# print(not root.contains(10))
-# print(root.value == 12)
-print(root.contains(10))
+    @staticmethod
+    def sampleBST():
+        sampleBST = BST(10)
+        sampleBST.left = BST(5)
+        sampleBST.left.left = BST(2)
+        sampleBST.left.left.left = BST(1)
+        sampleBST.left.right = BST(5)
+        sampleBST.right = BST(15)
+        sampleBST.right.left = BST(13)
+        sampleBST.right.left.right = BST(14)
+        sampleBST.right.right = BST(22)
+        return sampleBST
+
+#         10
+#       /   \
+#      5    15
+#     / \   / \
+#    2   5 13 22
+#   /       \
+#  1        14
+#
+#
+#
+
+print(BST.sampleBST().value)
