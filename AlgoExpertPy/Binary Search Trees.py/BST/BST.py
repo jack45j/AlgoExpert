@@ -30,7 +30,7 @@ class BST:
         
 
     def remove(self, value, parent = None):
-        print(self, value, parent)
+        # print(self, value, parent)
         currentNode = self
         while currentNode is not None:
             # Find the Node which is going to be remove
@@ -97,5 +97,3 @@ class BST:
 #
 #
 #
-
-print(BST.sampleBST().value)
