@@ -11,4 +11,5 @@ class Program {
     static let binarySearchTree = BinarySearchTree.shared
     static let arrays = Arrays.shared
     static let greedy = GreedyAlgorithm.shared
+    static let recursion = Recursion.shared
 }

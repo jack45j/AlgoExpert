@@ -6,3 +6,5 @@ AlgoExpert.xcodeproj/project.xcworkspace/xcuserdata/benson.xcuserdatad/UserInter
 AlgoExpert.xcodeproj/xcuserdata/benson.xcuserdatad/xcschemes/xcschememanagement.plist
 
 .vscode/
+
+*.xcuserstate
