@@ -8,3 +8,5 @@ AlgoExpert.xcodeproj/xcuserdata/benson.xcuserdatad/xcschemes/xcschememanagement.
 .vscode/
 
 *.xcuserstate
+
+*.pyc
