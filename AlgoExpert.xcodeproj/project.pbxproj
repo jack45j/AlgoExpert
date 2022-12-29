@@ -26,6 +26,7 @@
 		DB376C96295D664C001E4EA8 /* Two Number Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB376C95295D664C001E4EA8 /* Two Number Sum.swift */; };
 		DB376C9B295D6715001E4EA8 /* Validate subsequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB376C9A295D6715001E4EA8 /* Validate subsequence.swift */; };
 		DB376C9D295D6749001E4EA8 /* Sorted Squred Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB376C9C295D6749001E4EA8 /* Sorted Squred Array.swift */; };
+		DB376C9F295D69C6001E4EA8 /* ZigZag Traverse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB376C9E295D69C6001E4EA8 /* ZigZag Traverse.swift */; };
 		DB4A5ACE2625933700251CB9 /* BST Construction.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4A5ACD2625933700251CB9 /* BST Construction.swift */; };
 		DB6F19272611D185000FD1BD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6F19262611D185000FD1BD /* main.swift */; };
 		DB6F1947261BFE37000FD1BD /* First Duplicate Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6F1946261BFE37000FD1BD /* First Duplicate Value.swift */; };
@@ -73,6 +74,7 @@
 		DB376C95295D664C001E4EA8 /* Two Number Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Two Number Sum.swift"; sourceTree = "<group>"; };
 		DB376C9A295D6715001E4EA8 /* Validate subsequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Validate subsequence.swift"; sourceTree = "<group>"; };
 		DB376C9C295D6749001E4EA8 /* Sorted Squred Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sorted Squred Array.swift"; sourceTree = "<group>"; };
+		DB376C9E295D69C6001E4EA8 /* ZigZag Traverse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ZigZag Traverse.swift"; sourceTree = "<group>"; };
 		DB4A5ACD2625933700251CB9 /* BST Construction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BST Construction.swift"; sourceTree = "<group>"; };
 		DB6F19232611D185000FD1BD /* AlgoExpert */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AlgoExpert; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB6F19262611D185000FD1BD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -159,6 +161,7 @@
 				46548D3326231199000F9CA7 /* Subarray Sort.swift */,
 				46548D3626232A7A000F9CA7 /* Largest Range.swift */,
 				46548D3926233D2F000F9CA7 /* Min Rewards.swift */,
+				DB376C9E295D69C6001E4EA8 /* ZigZag Traverse.swift */,
 			);
 			path = Hard;
 			sourceTree = "<group>";
@@ -282,6 +285,7 @@
 				DB9BF50327759EE500683590 /* Nth Fibonacci.swift in Sources */,
 				DB376C94295D3108001E4EA8 /* Zero Sum Subarray.swift in Sources */,
 				DB6F194F261C0DE5000FD1BD /* Longest Peak.swift in Sources */,
+				DB376C9F295D69C6001E4EA8 /* ZigZag Traverse.swift in Sources */,
 				46548D3A26233D2F000F9CA7 /* Min Rewards.swift in Sources */,
 				46548D3726232A7A000F9CA7 /* Largest Range.swift in Sources */,
 				DB376C9B295D6715001E4EA8 /* Validate subsequence.swift in Sources */,
