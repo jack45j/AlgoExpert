@@ -7,7 +7,7 @@
 
 import Foundation
 
-extension Array {
+extension Arrays {
     func zeroSumSubarray(_ nums: [Int]) -> Bool {
         // key: Sum, value: Index
         var subArraySum: [Int: Int] = [:]
@@ -16,7 +16,7 @@ extension Array {
         var sum = 0
         for index in 0..<nums.count {
             sum = sum + nums[index]
-            if let prevIndex = subArraySum[sum] {
+            if let _ = subArraySum[sum] {
                 return true
             } else {
                 subArraySum[sum] = index

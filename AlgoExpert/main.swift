@@ -7,9 +7,12 @@
 
 import Foundation
 
-var arr: [Int] = [-5, -5, 2, 3, -2]
 
-print(arr.zeroSumSubarray(arr))
+var arr1 = [0, 4, 2, 1, 3]
+var arr2 = [2, 20, 13, 12, 11, 8, 4, 3, 1, 5, 6, 7, 9, 0]
+var arr3 = [800, 400, 20, 10, 30, 61, 70, 90, 17, 21, 22, 13, 12, 11, 8, 4, 2, 1, 3, 6, 7, 9, 0, 68, 55, 67, 57, 60, 51, 661, 50, 65, 53]
+
+print(Arrays.shared.minRewards([8, 4, 2, 1, 3, 6, 7, 9, 5]))
 
 //var array = [4, 2, 1, 3, 6]
 //var array1 = [1, 0]
