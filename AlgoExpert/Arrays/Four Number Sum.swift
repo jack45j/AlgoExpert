@@ -2,7 +2,7 @@
 //  Four Number Sum.swift
 //  AlgoExpert
 //
-//  Created by Yi-Cheng Lin on 2021/4/8.
+//  Created by Benson Lin on 2021/4/8.
 //
 
 import Foundation

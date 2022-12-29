@@ -2,7 +2,7 @@
 //  Array Of Products.swift
 //  Algoexpert
 //
-//  Created by Yi-Cheng Lin on 2021/4/5.
+//  Created by Benson Lin on 2021/4/5.
 //
 
 import Foundation
