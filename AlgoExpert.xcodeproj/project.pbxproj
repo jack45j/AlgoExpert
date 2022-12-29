@@ -118,9 +118,8 @@
 			children = (
 				DBA618882625441100F4987A /* BinarySearchTree.swift */,
 				DBA618832625364200F4987A /* BST.swift */,
-				46548D2E2622EB40000F9CA7 /* Find Closest Value In BST.swift */,
-				DB4A5ACD2625933700251CB9 /* BST Construction.swift */,
-				465370862625FA36007631C8 /* Validate BST.swift */,
+				DB376CA0295D801B001E4EA8 /* Easy */,
+				DB376CA1295D8038001E4EA8 /* Medium */,
 			);
 			path = "Binary Search Trees";
 			sourceTree = "<group>";
@@ -164,6 +163,23 @@
 				DB376C9E295D69C6001E4EA8 /* ZigZag Traverse.swift */,
 			);
 			path = Hard;
+			sourceTree = "<group>";
+		};
+		DB376CA0295D801B001E4EA8 /* Easy */ = {
+			isa = PBXGroup;
+			children = (
+				46548D2E2622EB40000F9CA7 /* Find Closest Value In BST.swift */,
+			);
+			path = Easy;
+			sourceTree = "<group>";
+		};
+		DB376CA1295D8038001E4EA8 /* Medium */ = {
+			isa = PBXGroup;
+			children = (
+				DB4A5ACD2625933700251CB9 /* BST Construction.swift */,
+				465370862625FA36007631C8 /* Validate BST.swift */,
+			);
+			path = Medium;
 			sourceTree = "<group>";
 		};
 		DB6F191A2611D185000FD1BD = {

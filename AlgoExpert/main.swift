@@ -7,7 +7,21 @@
 
 import Foundation
 
-print(Arrays.shared.zigZagTraverse(array: [[1,2,3,4,5]]))
+let root = BST(value: 10)
+root.left = BST(value: 5)
+root.left!.left = BST(value: 2)
+root.left!.left!.left = BST(value: 1)
+root.left!.right = BST(value: 5)
+root.right = BST(value: 15)
+root.right!.right = BST(value: 22)
+
+var result: [Int] = []
+
+print(root.inOrderTraversal(tree: root, array: &result))
+result = []
+print(root.preOrderTraversal(tree: root, array: &result))
+result = []
+print(root.postOrderTraversal(tree: root, array: &result))
 
 //var array = [4, 2, 1, 3, 6]
 //var array1 = [1, 0]
