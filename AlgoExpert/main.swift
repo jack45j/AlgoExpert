@@ -7,9 +7,9 @@
 
 import Foundation
 
-var arr: [Any] = [5, 2, [7, -1], 3, [6, [-13, 8], 4]]
-let result = Recursion.shared.productSum(arr)
-print(result)
+var arr: [Int] = [-5, -5, 2, 3, -2]
+
+print(arr.zeroSumSubarray(arr))
 
 //var array = [4, 2, 1, 3, 6]
 //var array1 = [1, 0]
