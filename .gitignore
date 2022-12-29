@@ -10,3 +10,4 @@ AlgoExpert.xcodeproj/xcuserdata/benson.xcuserdatad/xcschemes/xcschememanagement.
 *.xcuserstate
 
 *.pyc
+.DS_Store
