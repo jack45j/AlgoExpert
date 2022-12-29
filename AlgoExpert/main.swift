@@ -15,13 +15,11 @@ root.left!.right = BST(value: 5)
 root.right = BST(value: 15)
 root.right!.right = BST(value: 22)
 
-var result: [Int] = []
+var array: [Int] = [1,2,5,7,10,13,14,15,22]
 
-print(root.inOrderTraversal(tree: root, array: &result))
-result = []
-print(root.preOrderTraversal(tree: root, array: &result))
-result = []
-print(root.postOrderTraversal(tree: root, array: &result))
+let minHeightTree = BinarySearchTree.shared.minHeight(array)
+var result = [Int]()
+print(minHeightTree!.inOrderTraversal(tree: minHeightTree, array: &result))
 
 //var array = [4, 2, 1, 3, 6]
 //var array1 = [1, 0]

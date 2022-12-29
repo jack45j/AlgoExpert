@@ -9,25 +9,6 @@ import Foundation
 
 extension BST {
     @discardableResult
-    func insert(value: Int) -> BST {
-        if value < self.value {
-            if let left = left {
-                left.insert(value: value)
-            } else {
-                left = .init(value: value)
-            }
-        } else {
-            if let right = right {
-                right.insert(value: value)
-            } else {
-                right = .init(value: value)
-            }
-        }
-        
-        return self
-    }
-    
-    @discardableResult
     func contains(value: Int) -> Bool {
         guard value != self.value else { return true }
         if value < self.value, let left = left {
