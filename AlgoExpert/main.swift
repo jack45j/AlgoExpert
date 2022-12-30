@@ -25,7 +25,8 @@ root.right = BST(value: 20)
 root.right!.left = BST(value: 17)
 root.right!.right = BST(value: 22)
 
-print(root.findKthLargestValueInBst(root, 2))
+let tree = BinarySearchTree.shared.reconstructBst([10, 4, 2, 1, 3, 17, 19, 18])
+print(tree)
 
 //var array = [4, 2, 1, 3, 6]
 //var array1 = [1, 0]
