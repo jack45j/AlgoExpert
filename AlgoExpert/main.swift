@@ -7,19 +7,25 @@
 
 import Foundation
 
-let root = BST(value: 10)
+//let root = BST(value: 10)
+//root.left = BST(value: 5)
+//root.left!.left = BST(value: 2)
+//root.left!.left!.left = BST(value: 1)
+//root.left!.right = BST(value: 5)
+//root.right = BST(value: 15)
+//root.right!.right = BST(value: 22)
+
+var root = BST(value: 15)
 root.left = BST(value: 5)
 root.left!.left = BST(value: 2)
 root.left!.left!.left = BST(value: 1)
+root.left!.left!.right = BST(value: 3)
 root.left!.right = BST(value: 5)
-root.right = BST(value: 15)
+root.right = BST(value: 20)
+root.right!.left = BST(value: 17)
 root.right!.right = BST(value: 22)
 
-var array: [Int] = [1,2,5,7,10,13,14,15,22]
-
-let minHeightTree = BinarySearchTree.shared.minHeight(array)
-var result = [Int]()
-print(minHeightTree!.inOrderTraversal(tree: minHeightTree, array: &result))
+print(root.findKthLargestValueInBst(root, 2))
 
 //var array = [4, 2, 1, 3, 6]
 //var array1 = [1, 0]

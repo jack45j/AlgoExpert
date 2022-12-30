@@ -2,7 +2,7 @@
 //  Validate subsequence.swift
 //  AlgoExpert
 //
-//  Created by 林翌埕-20001107 on 2022/12/29.
+//  Created by Benson Lin on 2022/12/29.
 //  Copyright © 2022 Benson Lin. All rights reserved.
 //
 
