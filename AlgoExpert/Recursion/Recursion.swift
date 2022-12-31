@@ -7,6 +7,4 @@
 
 import Foundation
 
-class Recursion {
-    static let shared = Recursion()
-}
+class Recursion {}

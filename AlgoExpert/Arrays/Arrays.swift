@@ -7,6 +7,4 @@
 
 import Foundation
 
-class Arrays {
-    static let shared = Arrays()
-}
+class Arrays {}

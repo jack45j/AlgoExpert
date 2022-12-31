@@ -15,8 +15,4 @@ class BST {
     init(value: Int) {
         self.value = value
     }
-    
-    func dump() {
-        
-    }
 }

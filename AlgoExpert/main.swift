@@ -15,18 +15,18 @@ import Foundation
 //root.right = BST(value: 15)
 //root.right!.right = BST(value: 22)
 
-var root = BST(value: 15)
-root.left = BST(value: 5)
-root.left!.left = BST(value: 2)
-root.left!.left!.left = BST(value: 1)
-root.left!.left!.right = BST(value: 3)
-root.left!.right = BST(value: 5)
-root.right = BST(value: 20)
-root.right!.left = BST(value: 17)
-root.right!.right = BST(value: 22)
+var tree = BST(value: 1)
+tree.left = BST(value: 2)
+tree.right = BST(value: 3)
+tree.left!.left = BST(value: 4)
+tree.left!.right = BST(value: 5)
+tree.right!.left = BST(value: 6)
+tree.right!.right = BST(value: 7)
+tree.left!.left!.left = BST(value: 8)
+tree.left!.left!.right = BST(value: 9)
+tree.left!.right!.left = BST(value: 10)
 
-let tree = BinarySearchTree.shared.reconstructBst([10, 4, 2, 1, 3, 17, 19, 18])
-print(tree)
+print(Program.binaryTree.branchSums(root: tree))
 
 //var array = [4, 2, 1, 3, 6]
 //var array1 = [1, 0]
@@ -36,7 +36,7 @@ print(tree)
 //
 //
 //
-////print(Program.arrays.largestRange(array: array))
+////print(arrays.largestRange(array: array))
 //
 //
 //
@@ -56,7 +56,7 @@ print(tree)
 //
 //var rootTree = root.remove(value: 10, parentNode: nil)
 //
-//print(Program.binarySearchTree.validateBst(tree: root))
+//print(binarySearchTree.validateBst(tree: root))
 
 
 //extension Array where Element == Int {

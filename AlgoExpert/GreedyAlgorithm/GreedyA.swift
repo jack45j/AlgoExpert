@@ -7,6 +7,4 @@
 
 import Foundation
 
-class GreedyAlgorithm {
-    static let shared = GreedyAlgorithm()
-}
+class GreedyAlgorithm {}

@@ -7,6 +7,4 @@
 
 import Foundation
 
-class BinarySearchTree {
-    static let shared = BinarySearchTree()
-}
+class BinarySearchTree {}

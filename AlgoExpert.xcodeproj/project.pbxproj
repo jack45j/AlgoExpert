@@ -16,6 +16,8 @@
 		4600D977261E2CD80032BE3A /* Monotonic Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4600D96B261E2CD80032BE3A /* Monotonic Array.swift */; };
 		4600D978261E2CD80032BE3A /* Smallest Difference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4600D96C261E2CD80032BE3A /* Smallest Difference.swift */; };
 		4600D980261E2E420032BE3A /* Four Number Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4600D97F261E2E420032BE3A /* Four Number Sum.swift */; };
+		46185DC429608CDF00CF9A5A /* Branch Sums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46185DC329608CDF00CF9A5A /* Branch Sums.swift */; };
+		46185DC829608D6900CF9A5A /* BinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46185DC729608D6900CF9A5A /* BinaryTree.swift */; };
 		465370872625FA36007631C8 /* Validate BST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465370862625FA36007631C8 /* Validate BST.swift */; };
 		46548D292622E6E8000F9CA7 /* Merge Overlapping Intervals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46548D282622E6E8000F9CA7 /* Merge Overlapping Intervals.swift */; };
 		46548D2F2622EB40000F9CA7 /* Find Closest Value In BST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46548D2E2622EB40000F9CA7 /* Find Closest Value In BST.swift */; };
@@ -68,6 +70,8 @@
 		4600D96B261E2CD80032BE3A /* Monotonic Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Monotonic Array.swift"; sourceTree = "<group>"; };
 		4600D96C261E2CD80032BE3A /* Smallest Difference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Smallest Difference.swift"; sourceTree = "<group>"; };
 		4600D97F261E2E420032BE3A /* Four Number Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Four Number Sum.swift"; sourceTree = "<group>"; };
+		46185DC329608CDF00CF9A5A /* Branch Sums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Branch Sums.swift"; sourceTree = "<group>"; };
+		46185DC729608D6900CF9A5A /* BinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTree.swift; sourceTree = "<group>"; };
 		465370862625FA36007631C8 /* Validate BST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Validate BST.swift"; sourceTree = "<group>"; };
 		46548D282622E6E8000F9CA7 /* Merge Overlapping Intervals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Merge Overlapping Intervals.swift"; sourceTree = "<group>"; };
 		46548D2E2622EB40000F9CA7 /* Find Closest Value In BST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Find Closest Value In BST.swift"; sourceTree = "<group>"; };
@@ -110,6 +114,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		46185DC529608CE500CF9A5A /* Binary Trees */ = {
+			isa = PBXGroup;
+			children = (
+				46185DC729608D6900CF9A5A /* BinaryTree.swift */,
+				46185DC629608CEE00CF9A5A /* Easy */,
+			);
+			path = "Binary Trees";
+			sourceTree = "<group>";
+		};
+		46185DC629608CEE00CF9A5A /* Easy */ = {
+			isa = PBXGroup;
+			children = (
+				46185DC329608CDF00CF9A5A /* Branch Sums.swift */,
+			);
+			path = Easy;
+			sourceTree = "<group>";
+		};
 		46548D2C2622EB21000F9CA7 /* Arrays */ = {
 			isa = PBXGroup;
 			children = (
@@ -217,6 +238,7 @@
 				DB6F19262611D185000FD1BD /* main.swift */,
 				46548D2C2622EB21000F9CA7 /* Arrays */,
 				46548D312622EB45000F9CA7 /* Binary Search Trees */,
+				46185DC529608CE500CF9A5A /* Binary Trees */,
 				DBA618942625690000F4987A /* GreedyAlgorithm */,
 				DB9BF50427759EE900683590 /* Recursion */,
 			);
@@ -300,6 +322,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46185DC429608CDF00CF9A5A /* Branch Sums.swift in Sources */,
 				4600D971261E2CD80032BE3A /* Non-Constructible Change.swift in Sources */,
 				DB6F1947261BFE37000FD1BD /* First Duplicate Value.swift in Sources */,
 				4600D974261E2CD80032BE3A /* Three Number Sum.swift in Sources */,
@@ -334,6 +357,7 @@
 				4600D973261E2CD80032BE3A /* Spiral Traverse.swift in Sources */,
 				DBA6188F262568A100F4987A /* GreedyA.swift in Sources */,
 				DB376CA3295D9112001E4EA8 /* BST Traversal.swift in Sources */,
+				46185DC829608D6900CF9A5A /* BinaryTree.swift in Sources */,
 				DB376CA7295EBC09001E4EA8 /* Find Kth Largest Value In BST.swift in Sources */,
 				DBA618842625364200F4987A /* BST.swift in Sources */,
 				46548D3426231199000F9CA7 /* Subarray Sort.swift in Sources */,
