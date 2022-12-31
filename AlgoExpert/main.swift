@@ -24,9 +24,8 @@ tree.right!.left = BST(value: 6)
 tree.right!.right = BST(value: 7)
 tree.left!.left!.left = BST(value: 8)
 tree.left!.left!.right = BST(value: 9)
-tree.left!.right!.left = BST(value: 10)
 
-print(Program.binaryTree.branchSums(root: tree))
+print(Program.binaryTree.nodeDepths(tree))
 
 //var array = [4, 2, 1, 3, 6]
 //var array1 = [1, 0]
