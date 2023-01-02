@@ -19,6 +19,9 @@
 		46185DC429608CDF00CF9A5A /* Branch Sums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46185DC329608CDF00CF9A5A /* Branch Sums.swift */; };
 		46185DC829608D6900CF9A5A /* BinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46185DC729608D6900CF9A5A /* BinaryTree.swift */; };
 		46185DCA296098DC00CF9A5A /* Node Depths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46185DC9296098DC00CF9A5A /* Node Depths.swift */; };
+		46185DCC2962854C00CF9A5A /* A* Algorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46185DCB2962854C00CF9A5A /* A* Algorithm.swift */; };
+		46185DD02962856C00CF9A5A /* Famous Algorithms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46185DCF2962856C00CF9A5A /* Famous Algorithms.swift */; };
+		46185DD229628AB100CF9A5A /* Greedy Algorithms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46185DD129628AB100CF9A5A /* Greedy Algorithms.swift */; };
 		465370872625FA36007631C8 /* Validate BST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465370862625FA36007631C8 /* Validate BST.swift */; };
 		46548D292622E6E8000F9CA7 /* Merge Overlapping Intervals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46548D282622E6E8000F9CA7 /* Merge Overlapping Intervals.swift */; };
 		46548D2F2622EB40000F9CA7 /* Find Closest Value In BST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46548D2E2622EB40000F9CA7 /* Find Closest Value In BST.swift */; };
@@ -45,7 +48,6 @@
 		DBA618842625364200F4987A /* BST.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA618832625364200F4987A /* BST.swift */; };
 		DBA618892625441100F4987A /* BinarySearchTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA618882625441100F4987A /* BinarySearchTree.swift */; };
 		DBA6188C2625666500F4987A /* Arrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA6188B2625666500F4987A /* Arrays.swift */; };
-		DBA6188F262568A100F4987A /* GreedyA.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA6188E262568A100F4987A /* GreedyA.swift */; };
 		DBA61892262568DF00F4987A /* Minimum Waiting Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA61891262568DF00F4987A /* Minimum Waiting Time.swift */; };
 /* End PBXBuildFile section */
 
@@ -74,6 +76,9 @@
 		46185DC329608CDF00CF9A5A /* Branch Sums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Branch Sums.swift"; sourceTree = "<group>"; };
 		46185DC729608D6900CF9A5A /* BinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTree.swift; sourceTree = "<group>"; };
 		46185DC9296098DC00CF9A5A /* Node Depths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Node Depths.swift"; sourceTree = "<group>"; };
+		46185DCB2962854C00CF9A5A /* A* Algorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "A* Algorithm.swift"; sourceTree = "<group>"; };
+		46185DCF2962856C00CF9A5A /* Famous Algorithms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Famous Algorithms.swift"; sourceTree = "<group>"; };
+		46185DD129628AB100CF9A5A /* Greedy Algorithms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Greedy Algorithms.swift"; sourceTree = "<group>"; };
 		465370862625FA36007631C8 /* Validate BST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Validate BST.swift"; sourceTree = "<group>"; };
 		46548D282622E6E8000F9CA7 /* Merge Overlapping Intervals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Merge Overlapping Intervals.swift"; sourceTree = "<group>"; };
 		46548D2E2622EB40000F9CA7 /* Find Closest Value In BST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Find Closest Value In BST.swift"; sourceTree = "<group>"; };
@@ -101,7 +106,6 @@
 		DBA618832625364200F4987A /* BST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BST.swift; sourceTree = "<group>"; };
 		DBA618882625441100F4987A /* BinarySearchTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchTree.swift; sourceTree = "<group>"; };
 		DBA6188B2625666500F4987A /* Arrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arrays.swift; sourceTree = "<group>"; };
-		DBA6188E262568A100F4987A /* GreedyA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreedyA.swift; sourceTree = "<group>"; };
 		DBA61891262568DF00F4987A /* Minimum Waiting Time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Minimum Waiting Time.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -130,6 +134,40 @@
 			children = (
 				46185DC329608CDF00CF9A5A /* Branch Sums.swift */,
 				46185DC9296098DC00CF9A5A /* Node Depths.swift */,
+			);
+			path = Easy;
+			sourceTree = "<group>";
+		};
+		46185DCD2962855500CF9A5A /* Famous Algorithms */ = {
+			isa = PBXGroup;
+			children = (
+				46185DCF2962856C00CF9A5A /* Famous Algorithms.swift */,
+				46185DCE2962855F00CF9A5A /* Very Hard */,
+			);
+			path = "Famous Algorithms";
+			sourceTree = "<group>";
+		};
+		46185DCE2962855F00CF9A5A /* Very Hard */ = {
+			isa = PBXGroup;
+			children = (
+				46185DCB2962854C00CF9A5A /* A* Algorithm.swift */,
+			);
+			path = "Very Hard";
+			sourceTree = "<group>";
+		};
+		46185DD329628ABF00CF9A5A /* Greedy Algorithms */ = {
+			isa = PBXGroup;
+			children = (
+				46185DD129628AB100CF9A5A /* Greedy Algorithms.swift */,
+				46185DD429628AF200CF9A5A /* Easy */,
+			);
+			path = "Greedy Algorithms";
+			sourceTree = "<group>";
+		};
+		46185DD429628AF200CF9A5A /* Easy */ = {
+			isa = PBXGroup;
+			children = (
+				DBA61891262568DF00F4987A /* Minimum Waiting Time.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -242,7 +280,8 @@
 				46548D2C2622EB21000F9CA7 /* Arrays */,
 				46548D312622EB45000F9CA7 /* Binary Search Trees */,
 				46185DC529608CE500CF9A5A /* Binary Trees */,
-				DBA618942625690000F4987A /* GreedyAlgorithm */,
+				46185DCD2962855500CF9A5A /* Famous Algorithms */,
+				46185DD329628ABF00CF9A5A /* Greedy Algorithms */,
 				DB9BF50427759EE900683590 /* Recursion */,
 			);
 			path = AlgoExpert;
@@ -256,15 +295,6 @@
 				DB9BF5072775ACFA00683590 /* Product Sum.swift */,
 			);
 			path = Recursion;
-			sourceTree = "<group>";
-		};
-		DBA618942625690000F4987A /* GreedyAlgorithm */ = {
-			isa = PBXGroup;
-			children = (
-				DBA6188E262568A100F4987A /* GreedyA.swift */,
-				DBA61891262568DF00F4987A /* Minimum Waiting Time.swift */,
-			);
-			path = GreedyAlgorithm;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -337,6 +367,7 @@
 				465370872625FA36007631C8 /* Validate BST.swift in Sources */,
 				46185DCA296098DC00CF9A5A /* Node Depths.swift in Sources */,
 				46548D292622E6E8000F9CA7 /* Merge Overlapping Intervals.swift in Sources */,
+				46185DCC2962854C00CF9A5A /* A* Algorithm.swift in Sources */,
 				4600D96E261E2CD80032BE3A /* Move Element To End.swift in Sources */,
 				DB9BF50327759EE500683590 /* Nth Fibonacci.swift in Sources */,
 				DB376C94295D3108001E4EA8 /* Zero Sum Subarray.swift in Sources */,
@@ -359,9 +390,10 @@
 				DB9BF50627759F1A00683590 /* Recursion.swift in Sources */,
 				DB6F194B261C045D000FD1BD /* Program.swift in Sources */,
 				4600D973261E2CD80032BE3A /* Spiral Traverse.swift in Sources */,
-				DBA6188F262568A100F4987A /* GreedyA.swift in Sources */,
 				DB376CA3295D9112001E4EA8 /* BST Traversal.swift in Sources */,
+				46185DD02962856C00CF9A5A /* Famous Algorithms.swift in Sources */,
 				46185DC829608D6900CF9A5A /* BinaryTree.swift in Sources */,
+				46185DD229628AB100CF9A5A /* Greedy Algorithms.swift in Sources */,
 				DB376CA7295EBC09001E4EA8 /* Find Kth Largest Value In BST.swift in Sources */,
 				DBA618842625364200F4987A /* BST.swift in Sources */,
 				46548D3426231199000F9CA7 /* Subarray Sort.swift in Sources */,
