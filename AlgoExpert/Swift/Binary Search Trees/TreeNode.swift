@@ -22,9 +22,20 @@ class TreeNode {
     }
 }
 
-extension TreeNode {
+extension Optional where Wrapped == TreeNode & Dumpable {
     func dump() {
-        func dumpNode(_ node: TreeNode?, _ prefix: String, _ isLast: Bool, _ out: inout String) {
+        return
+    }
+}
+
+extension TreeNode: Dumpable {
+    func dump() {
+        func dumpNode(_ node: TreeNode?,
+                      _ prefix: String,
+                      _ isLast: Bool,
+                      isLeft: Bool = false,
+                      isleftBelow: Bool = false,
+                      _ out: inout String) {
             guard let node = node else { return }
             out += prefix
             if prefix.isEmpty {
@@ -36,16 +47,21 @@ extension TreeNode {
             if prefix.isEmpty {
                 out += "(Root)"
             } else {
-                out += isLast ? "(L)" : "(R)"
+                out += isLeft ? "(L)" : "(R)"
             }
             out += "\n"
             
-            dumpNode(node.right, prefix + (isLast ? "  " : "│ "), node.left == nil, &out)
-            dumpNode(node.left, prefix + (isLast ? "  " : "│ "), true, &out)
+            if !isleftBelow {
+                dumpNode(node.left, prefix + (isLast ? "  " : "│ "), node.right == nil, isLeft: true, isleftBelow: isleftBelow, &out)
+                dumpNode(node.right, prefix + (isLast ? "  " : "│ "), true, isLeft: false, isleftBelow: isleftBelow, &out)
+            } else {
+                dumpNode(node.right, prefix + (isLast ? "  " : "│ "), node.left == nil, isLeft: false, isleftBelow: isleftBelow, &out)
+                dumpNode(node.left, prefix + (isLast ? "  " : "│ "), true, isLeft: true, isleftBelow: isleftBelow, &out)
+            }
         }
         
         var out = ""
-        dumpNode(self, "", true, &out)
+        dumpNode(self, "", true, isleftBelow: false, &out)
         print(out)
     }
 }

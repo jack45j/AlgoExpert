@@ -40,6 +40,7 @@
 		46B4BA1B29BD957D007856D0 /* 109-Convert Sorted List to Binary Search Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B4BA1A29BD957D007856D0 /* 109-Convert Sorted List to Binary Search Tree.swift */; };
 		46B4BA1D29BD95DC007856D0 /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B4BA1C29BD95DC007856D0 /* ListNode.swift */; };
 		46B4BA2029BDA5C9007856D0 /* 662-Maximum Width of Binary Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B4BA1F29BDA5C9007856D0 /* 662-Maximum Width of Binary Tree.swift */; };
+		46B4BA2229BE5362007856D0 /* Dumpable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B4BA2129BE5362007856D0 /* Dumpable.swift */; };
 		DB376C94295D3108001E4EA8 /* Zero Sum Subarray.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB376C93295D3108001E4EA8 /* Zero Sum Subarray.swift */; };
 		DB376C96295D664C001E4EA8 /* Two Number Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB376C95295D664C001E4EA8 /* Two Number Sum.swift */; };
 		DB376C9B295D6715001E4EA8 /* Validate subsequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB376C9A295D6715001E4EA8 /* Validate subsequence.swift */; };
@@ -136,6 +137,7 @@
 		46B4BA1A29BD957D007856D0 /* 109-Convert Sorted List to Binary Search Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "109-Convert Sorted List to Binary Search Tree.swift"; sourceTree = "<group>"; };
 		46B4BA1C29BD95DC007856D0 /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
 		46B4BA1F29BDA5C9007856D0 /* 662-Maximum Width of Binary Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "662-Maximum Width of Binary Tree.swift"; sourceTree = "<group>"; };
+		46B4BA2129BE5362007856D0 /* Dumpable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dumpable.swift; sourceTree = "<group>"; };
 		DB376C93295D3108001E4EA8 /* Zero Sum Subarray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Zero Sum Subarray.swift"; sourceTree = "<group>"; };
 		DB376C95295D664C001E4EA8 /* Two Number Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Two Number Sum.swift"; sourceTree = "<group>"; };
 		DB376C9A295D6715001E4EA8 /* Validate subsequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Validate subsequence.swift"; sourceTree = "<group>"; };
@@ -381,6 +383,7 @@
 				46B4BA0E29BD0DB6007856D0 /* Bitwise */,
 				46B4BA1529BD126F007856D0 /* Matrxix */,
 				46B4BA1829BD14C5007856D0 /* Collection+additions.swift */,
+				46B4BA2129BE5362007856D0 /* Dumpable.swift */,
 			);
 			path = Swift;
 			sourceTree = "<group>";
@@ -603,6 +606,7 @@
 				46B4BA1729BD1279007856D0 /* Matrix.swift in Sources */,
 				DB9BF5082775ACFA00683590 /* Product Sum.swift in Sources */,
 				46548D2F2622EB40000F9CA7 /* Find Closest Value In BST.swift in Sources */,
+				46B4BA2229BE5362007856D0 /* Dumpable.swift in Sources */,
 				4600D980261E2E420032BE3A /* Four Number Sum.swift in Sources */,
 				4600D978261E2CD80032BE3A /* Smallest Difference.swift in Sources */,
 				4600D976261E2CD80032BE3A /* Tournament Winner.swift in Sources */,
