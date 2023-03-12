@@ -1,5 +1,5 @@
 //
-//  Find Closest Value In BST.swift
+//  Find Closest Value In TreeNode.swift
 //  AlgoExpert
 //
 //  Created by Benson Lin on 2021/4/11.
@@ -8,14 +8,14 @@
 import Foundation
 
 extension BinarySearchTree {
-    func findClosestValueInBST(tree: BST?, target: Int) -> Int {
+    func findClosestValueInTreeNode(tree: TreeNode?, target: Int) -> Int {
         guard let tree = tree else { return 0 }
         var closest = tree.value
         search(node: tree, target: target, closest: &closest)
         return closest
     }
     
-    private func search(node: BST?, target: Int, closest: inout Int) {
+    private func search(node: TreeNode?, target: Int, closest: inout Int) {
         guard let node = node else { return }
         print(node.value)
         if abs(target - closest) > abs(target - node.value) {
@@ -42,7 +42,7 @@ extension BinarySearchTree {
     
     
     
-    private func algoSolution(tree: BST?, target: Int, closest: inout Int) -> Int {
+    private func algoSolution(tree: TreeNode?, target: Int, closest: inout Int) -> Int {
         var currentNode = tree
         while currentNode != nil {
             print(currentNode?.value)

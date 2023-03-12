@@ -10,8 +10,8 @@ import Foundation
 
 extension BinaryTree {
     
-    func nodeDepths(_ root: BST?) -> Int {
-        func dfsTraversal(node: BST?, depth: Int, sum: inout Int)  {
+    func nodeDepths(_ root: TreeNode?) -> Int {
+        func dfsTraversal(node: TreeNode?, depth: Int, sum: inout Int)  {
             guard let value = node?.value else { return }
             print("[BT] Traverse to \(node?.value)")
             sum += depth

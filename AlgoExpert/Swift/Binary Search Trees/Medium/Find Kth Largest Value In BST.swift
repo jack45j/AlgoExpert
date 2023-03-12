@@ -1,5 +1,5 @@
 //
-//  Find Kth Largest Value In BST.swift
+//  Find Kth Largest Value In TreeNode.swift
 //  AlgoExpert
 //
 //  Created by Benson Lin on 2022/12/30.
@@ -8,11 +8,11 @@
 
 import Foundation
 
-extension BST {
-    func findKthLargestValueInBst(_ tree: BST, _ k: Int) -> Int {
+extension TreeNode {
+    func findKthLargestValueInTreeNode(_ tree: TreeNode, _ k: Int) -> Int {
         var k = k
         var kLargestValue = -1
-        func reverseTraverse(_ tree: BST?) {
+        func reverseTraverse(_ tree: TreeNode?) {
             guard let tree = tree, k > 0 else { return }
             print(tree.value)
             reverseTraverse(tree.right)

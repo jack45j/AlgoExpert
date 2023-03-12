@@ -13,4 +13,6 @@ class Program {
     static let binaryTree = BinaryTree()
     static let greedy = GreedyAlgorithms()
     static let recursion = Recursion()
+    static let bitwise = Bitwise()
+    static let matrix = Matrix()
 }

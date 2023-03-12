@@ -1,5 +1,5 @@
 //
-//  Reconstruct BST.swift
+//  Reconstruct TreeNode.swift
 //  AlgoExpert
 //
 //  Created by Benson Lin on 2022/12/30.
@@ -9,9 +9,9 @@
 import Foundation
 
 extension BinarySearchTree {
-    func reconstructBst(_ preOrderTraversalValues: [Int]) -> BST {
+    func reconstructTreeNode(_ preOrderTraversalValues: [Int]) -> TreeNode {
         guard let firstValue = preOrderTraversalValues.first else { fatalError() }
-        let tree = BST(value: firstValue)
+        let tree = TreeNode(value: firstValue)
         let preOrderTraversalValues = preOrderTraversalValues.dropFirst()
         
         for value in preOrderTraversalValues {

@@ -1,5 +1,5 @@
 //
-//  BST Construction.swift
+//  TreeNode Construction.swift
 //  AlgoExpert
 //
 //  Created by Benson Lin on 2021/4/13.
@@ -7,7 +7,7 @@
 
 import Foundation
 
-extension BST {
+extension TreeNode {
     @discardableResult
     func contains(value: Int) -> Bool {
         guard value != self.value else { return true }
@@ -21,9 +21,9 @@ extension BST {
     }
     
 	@discardableResult
-    func remove(value: Int, parentNode: BST?) -> BST {
+    func remove(value: Int, parentNode: TreeNode?) -> TreeNode {
         var parentNode = parentNode
-		var currentNode: BST? = self
+		var currentNode: TreeNode? = self
 		
 		while let node = currentNode {
 			if value < node.value {
@@ -74,8 +74,8 @@ extension BST {
     }
 	
 	@discardableResult
-	func findMinValue() -> BST {
-		var currentNode: BST? = self
+	func findMinValue() -> TreeNode {
+		var currentNode: TreeNode? = self
 		if let _ = left {
 			while let left = currentNode?.left {
 				currentNode = left

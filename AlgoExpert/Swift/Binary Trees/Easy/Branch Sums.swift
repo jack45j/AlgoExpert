@@ -9,9 +9,9 @@
 import Foundation
 
 extension BinaryTree {
-    func branchSums(root: BST) -> [Int] {
+    func branchSums(root: TreeNode) -> [Int] {
         
-        func dfsTraversal(node: BST?, _ result: inout [Int], sum: Int)  {
+        func dfsTraversal(node: TreeNode?, _ result: inout [Int], sum: Int)  {
             guard let value = node?.value else { return }
             print("[BT] Traverse to \(node?.value)")
             if node?.left != nil || node?.right != nil {
