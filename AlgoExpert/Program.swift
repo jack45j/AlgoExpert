@@ -15,4 +15,5 @@ class Program {
     static let recursion = Recursion()
     static let bitwise = Bitwise()
     static let matrix = Matrix()
+    static let string = Strings()
 }

@@ -41,6 +41,8 @@
 		46B4BA1D29BD95DC007856D0 /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B4BA1C29BD95DC007856D0 /* ListNode.swift */; };
 		46B4BA2029BDA5C9007856D0 /* 662-Maximum Width of Binary Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B4BA1F29BDA5C9007856D0 /* 662-Maximum Width of Binary Tree.swift */; };
 		46B4BA2229BE5362007856D0 /* Dumpable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B4BA2129BE5362007856D0 /* Dumpable.swift */; };
+		DB352B5329D284B8001D44CB /* Palindrome Check.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB352B5229D284B8001D44CB /* Palindrome Check.swift */; };
+		DB352B5729D2857F001D44CB /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB352B5629D2857F001D44CB /* Strings.swift */; };
 		DB376C94295D3108001E4EA8 /* Zero Sum Subarray.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB376C93295D3108001E4EA8 /* Zero Sum Subarray.swift */; };
 		DB376C96295D664C001E4EA8 /* Two Number Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB376C95295D664C001E4EA8 /* Two Number Sum.swift */; };
 		DB376C9B295D6715001E4EA8 /* Validate subsequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB376C9A295D6715001E4EA8 /* Validate subsequence.swift */; };
@@ -138,6 +140,8 @@
 		46B4BA1C29BD95DC007856D0 /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
 		46B4BA1F29BDA5C9007856D0 /* 662-Maximum Width of Binary Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "662-Maximum Width of Binary Tree.swift"; sourceTree = "<group>"; };
 		46B4BA2129BE5362007856D0 /* Dumpable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dumpable.swift; sourceTree = "<group>"; };
+		DB352B5229D284B8001D44CB /* Palindrome Check.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Palindrome Check.swift"; sourceTree = "<group>"; };
+		DB352B5629D2857F001D44CB /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
 		DB376C93295D3108001E4EA8 /* Zero Sum Subarray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Zero Sum Subarray.swift"; sourceTree = "<group>"; };
 		DB376C95295D664C001E4EA8 /* Two Number Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Two Number Sum.swift"; sourceTree = "<group>"; };
 		DB376C9A295D6715001E4EA8 /* Validate subsequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Validate subsequence.swift"; sourceTree = "<group>"; };
@@ -384,6 +388,7 @@
 				46B4BA1529BD126F007856D0 /* Matrxix */,
 				46B4BA1829BD14C5007856D0 /* Collection+additions.swift */,
 				46B4BA2129BE5362007856D0 /* Dumpable.swift */,
+				DB352B5429D2850F001D44CB /* Strings */,
 			);
 			path = Swift;
 			sourceTree = "<group>";
@@ -412,6 +417,23 @@
 				46B4BA1C29BD95DC007856D0 /* ListNode.swift */,
 			);
 			path = LinkList;
+			sourceTree = "<group>";
+		};
+		DB352B5429D2850F001D44CB /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				DB352B5529D28518001D44CB /* Easy */,
+				DB352B5629D2857F001D44CB /* Strings.swift */,
+			);
+			path = Strings;
+			sourceTree = "<group>";
+		};
+		DB352B5529D28518001D44CB /* Easy */ = {
+			isa = PBXGroup;
+			children = (
+				DB352B5229D284B8001D44CB /* Palindrome Check.swift */,
+			);
+			path = Easy;
 			sourceTree = "<group>";
 		};
 		DB376C97295D6699001E4EA8 /* Easy */ = {
@@ -619,6 +641,7 @@
 				DB6F194B261C045D000FD1BD /* Program.swift in Sources */,
 				4600D973261E2CD80032BE3A /* Spiral Traverse.swift in Sources */,
 				DB376CA3295D9112001E4EA8 /* BST Traversal.swift in Sources */,
+				DB352B5729D2857F001D44CB /* Strings.swift in Sources */,
 				46B4BA1B29BD957D007856D0 /* 109-Convert Sorted List to Binary Search Tree.swift in Sources */,
 				46B4BA0829BD0C85007856D0 /* 264-Ugly Number II .swift in Sources */,
 				46185DD02962856C00CF9A5A /* Famous Algorithms.swift in Sources */,
@@ -626,6 +649,7 @@
 				46185DD229628AB100CF9A5A /* Greedy Algorithms.swift in Sources */,
 				46B4BA1D29BD95DC007856D0 /* ListNode.swift in Sources */,
 				46B4BA2029BDA5C9007856D0 /* 662-Maximum Width of Binary Tree.swift in Sources */,
+				DB352B5329D284B8001D44CB /* Palindrome Check.swift in Sources */,
 				46B4BA1429BD126A007856D0 /* 463-Island Perimeter .swift in Sources */,
 				46B4BA1229BD0FA8007856D0 /* 66-Plus One .swift in Sources */,
 				DB376CA7295EBC09001E4EA8 /* Find Kth Largest Value In BST.swift in Sources */,

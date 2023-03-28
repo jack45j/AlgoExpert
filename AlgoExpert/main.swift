@@ -19,7 +19,7 @@ let tree = TreeNode(
 
 
 
-
+print(Program.string.isPalindrome(string: "abba"))
 
 
 
