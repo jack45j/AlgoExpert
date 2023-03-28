@@ -9,3 +9,9 @@
 import Foundation
 
 class Strings {}
+
+extension String {
+    subscript(_ idx: Int) -> Character {
+        self[self.index(self.startIndex, offsetBy: idx)]
+    }
+}
