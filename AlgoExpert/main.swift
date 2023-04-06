@@ -18,8 +18,8 @@ let tree = TreeNode(
              TreeNode(7, nil, TreeNode(value: 8))))
 
 
-
-print(Program.string.caesarCipherEncryptor(string: "xyz", key: 2))
+let str = "AAAAAAAAAAAAABBCCCCDD"
+print(Program.string.runLengthEncoding(str))
 
 
 

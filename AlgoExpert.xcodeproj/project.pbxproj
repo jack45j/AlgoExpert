@@ -65,6 +65,7 @@
 		DBA618892625441100F4987A /* BinarySearchTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA618882625441100F4987A /* BinarySearchTree.swift */; };
 		DBA6188C2625666500F4987A /* Arrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA6188B2625666500F4987A /* Arrays.swift */; };
 		DBA61892262568DF00F4987A /* Minimum Waiting Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA61891262568DF00F4987A /* Minimum Waiting Time.swift */; };
+		DBE4A9A129DECA1500EC186F /* Run-Length Encoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE4A9A029DECA1500EC186F /* Run-Length Encoding.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -166,6 +167,7 @@
 		DBA618882625441100F4987A /* BinarySearchTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchTree.swift; sourceTree = "<group>"; };
 		DBA6188B2625666500F4987A /* Arrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arrays.swift; sourceTree = "<group>"; };
 		DBA61891262568DF00F4987A /* Minimum Waiting Time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Minimum Waiting Time.swift"; sourceTree = "<group>"; };
+		DBE4A9A029DECA1500EC186F /* Run-Length Encoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Run-Length Encoding.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -435,6 +437,7 @@
 			children = (
 				DB352B5229D284B8001D44CB /* Palindrome Check.swift */,
 				DB352B5829D28A82001D44CB /* Caesar Cipher Encryptor.swift */,
+				DBE4A9A029DECA1500EC186F /* Run-Length Encoding.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -629,6 +632,7 @@
 				DB376C9B295D6715001E4EA8 /* Validate subsequence.swift in Sources */,
 				DB376C96295D664C001E4EA8 /* Two Number Sum.swift in Sources */,
 				46B4BA1729BD1279007856D0 /* Matrix.swift in Sources */,
+				DBE4A9A129DECA1500EC186F /* Run-Length Encoding.swift in Sources */,
 				DB9BF5082775ACFA00683590 /* Product Sum.swift in Sources */,
 				46548D2F2622EB40000F9CA7 /* Find Closest Value In BST.swift in Sources */,
 				46B4BA2229BE5362007856D0 /* Dumpable.swift in Sources */,
