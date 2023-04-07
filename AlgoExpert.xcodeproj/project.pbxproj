@@ -66,6 +66,7 @@
 		DBA6188C2625666500F4987A /* Arrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA6188B2625666500F4987A /* Arrays.swift */; };
 		DBA61892262568DF00F4987A /* Minimum Waiting Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA61891262568DF00F4987A /* Minimum Waiting Time.swift */; };
 		DBE4A9A129DECA1500EC186F /* Run-Length Encoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE4A9A029DECA1500EC186F /* Run-Length Encoding.swift */; };
+		DBE4A9A329DED0DF00EC186F /* Generate Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE4A9A229DED0DF00EC186F /* Generate Document.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -168,6 +169,7 @@
 		DBA6188B2625666500F4987A /* Arrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arrays.swift; sourceTree = "<group>"; };
 		DBA61891262568DF00F4987A /* Minimum Waiting Time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Minimum Waiting Time.swift"; sourceTree = "<group>"; };
 		DBE4A9A029DECA1500EC186F /* Run-Length Encoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Run-Length Encoding.swift"; sourceTree = "<group>"; };
+		DBE4A9A229DED0DF00EC186F /* Generate Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Generate Document.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -438,6 +440,7 @@
 				DB352B5229D284B8001D44CB /* Palindrome Check.swift */,
 				DB352B5829D28A82001D44CB /* Caesar Cipher Encryptor.swift */,
 				DBE4A9A029DECA1500EC186F /* Run-Length Encoding.swift */,
+				DBE4A9A229DED0DF00EC186F /* Generate Document.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -612,6 +615,7 @@
 				DB376CA5295D920E001E4EA8 /* Min Height BST.swift in Sources */,
 				4600D977261E2CD80032BE3A /* Monotonic Array.swift in Sources */,
 				DB6F19272611D185000FD1BD /* main.swift in Sources */,
+				DBE4A9A329DED0DF00EC186F /* Generate Document.swift in Sources */,
 				DB4A5ACE2625933700251CB9 /* BST Construction.swift in Sources */,
 				DBA618892625441100F4987A /* BinarySearchTree.swift in Sources */,
 				465370872625FA36007631C8 /* Validate BST.swift in Sources */,

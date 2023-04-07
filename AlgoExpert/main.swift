@@ -18,8 +18,9 @@ let tree = TreeNode(
              TreeNode(7, nil, TreeNode(value: 8))))
 
 
-let str = "AAAAAAAAAAAAABBCCCCDD"
-print(Program.string.runLengthEncoding(str))
+let chars = "aheaolabbhb"
+let doc = "hello"
+print(Program.string.generateDocument(chars, doc))
 
 
 
