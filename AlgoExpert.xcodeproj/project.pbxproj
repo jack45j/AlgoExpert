@@ -67,6 +67,7 @@
 		DBA61892262568DF00F4987A /* Minimum Waiting Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA61891262568DF00F4987A /* Minimum Waiting Time.swift */; };
 		DBE4A9A129DECA1500EC186F /* Run-Length Encoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE4A9A029DECA1500EC186F /* Run-Length Encoding.swift */; };
 		DBE4A9A329DED0DF00EC186F /* Generate Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE4A9A229DED0DF00EC186F /* Generate Document.swift */; };
+		DBE4A9A529DFB32500EC186F /* First Non-Repeating Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE4A9A429DFB32500EC186F /* First Non-Repeating Character.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -170,6 +171,7 @@
 		DBA61891262568DF00F4987A /* Minimum Waiting Time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Minimum Waiting Time.swift"; sourceTree = "<group>"; };
 		DBE4A9A029DECA1500EC186F /* Run-Length Encoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Run-Length Encoding.swift"; sourceTree = "<group>"; };
 		DBE4A9A229DED0DF00EC186F /* Generate Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Generate Document.swift"; sourceTree = "<group>"; };
+		DBE4A9A429DFB32500EC186F /* First Non-Repeating Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "First Non-Repeating Character.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -441,6 +443,7 @@
 				DB352B5829D28A82001D44CB /* Caesar Cipher Encryptor.swift */,
 				DBE4A9A029DECA1500EC186F /* Run-Length Encoding.swift */,
 				DBE4A9A229DED0DF00EC186F /* Generate Document.swift */,
+				DBE4A9A429DFB32500EC186F /* First Non-Repeating Character.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -633,6 +636,7 @@
 				DB376C9F295D69C6001E4EA8 /* ZigZag Traverse.swift in Sources */,
 				46548D3A26233D2F000F9CA7 /* Min Rewards.swift in Sources */,
 				46548D3726232A7A000F9CA7 /* Largest Range.swift in Sources */,
+				DBE4A9A529DFB32500EC186F /* First Non-Repeating Character.swift in Sources */,
 				DB376C9B295D6715001E4EA8 /* Validate subsequence.swift in Sources */,
 				DB376C96295D664C001E4EA8 /* Two Number Sum.swift in Sources */,
 				46B4BA1729BD1279007856D0 /* Matrix.swift in Sources */,
