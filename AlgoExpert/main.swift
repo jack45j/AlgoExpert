@@ -18,9 +18,8 @@ let tree = TreeNode(
              TreeNode(7, nil, TreeNode(value: 8))))
 
 
-let chars = "aheaolabbhb"
-let doc = "hello"
-print(Program.string.generateDocument(chars, doc))
+let words = ["desserts", "stressed", "hello"]
+print(Program.string.semordnilap(words))
 
 
 

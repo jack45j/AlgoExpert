@@ -68,6 +68,7 @@
 		DBE4A9A129DECA1500EC186F /* Run-Length Encoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE4A9A029DECA1500EC186F /* Run-Length Encoding.swift */; };
 		DBE4A9A329DED0DF00EC186F /* Generate Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE4A9A229DED0DF00EC186F /* Generate Document.swift */; };
 		DBE4A9A529DFB32500EC186F /* First Non-Repeating Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE4A9A429DFB32500EC186F /* First Non-Repeating Character.swift */; };
+		DBE4A9A729DFB4B600EC186F /* Semordnilap.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE4A9A629DFB4B600EC186F /* Semordnilap.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -172,6 +173,7 @@
 		DBE4A9A029DECA1500EC186F /* Run-Length Encoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Run-Length Encoding.swift"; sourceTree = "<group>"; };
 		DBE4A9A229DED0DF00EC186F /* Generate Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Generate Document.swift"; sourceTree = "<group>"; };
 		DBE4A9A429DFB32500EC186F /* First Non-Repeating Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "First Non-Repeating Character.swift"; sourceTree = "<group>"; };
+		DBE4A9A629DFB4B600EC186F /* Semordnilap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Semordnilap.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -444,6 +446,7 @@
 				DBE4A9A029DECA1500EC186F /* Run-Length Encoding.swift */,
 				DBE4A9A229DED0DF00EC186F /* Generate Document.swift */,
 				DBE4A9A429DFB32500EC186F /* First Non-Repeating Character.swift */,
+				DBE4A9A629DFB4B600EC186F /* Semordnilap.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -656,6 +659,7 @@
 				DB6F194B261C045D000FD1BD /* Program.swift in Sources */,
 				4600D973261E2CD80032BE3A /* Spiral Traverse.swift in Sources */,
 				DB376CA3295D9112001E4EA8 /* BST Traversal.swift in Sources */,
+				DBE4A9A729DFB4B600EC186F /* Semordnilap.swift in Sources */,
 				DB352B5729D2857F001D44CB /* Strings.swift in Sources */,
 				DB352B5929D28A82001D44CB /* Caesar Cipher Encryptor.swift in Sources */,
 				46B4BA1B29BD957D007856D0 /* 109-Convert Sorted List to Binary Search Tree.swift in Sources */,
