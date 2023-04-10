@@ -18,8 +18,8 @@ let tree = TreeNode(
              TreeNode(7, nil, TreeNode(value: 8))))
 
 
-let str = "noon high it is"
-print(Program.string.longestPalindromicSubstring(string: str))
+let str = ["abc", "bcd", "cbad"]
+print(Program.string.commonCharacters(str))
 
 
 
