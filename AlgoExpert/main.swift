@@ -18,8 +18,8 @@ let tree = TreeNode(
              TreeNode(7, nil, TreeNode(value: 8))))
 
 
-let words = ["desserts", "stressed", "hello"]
-print(Program.string.semordnilap(words))
+let str = "noon high it is"
+print(Program.string.longestPalindromicSubstring(string: str))
 
 
 
