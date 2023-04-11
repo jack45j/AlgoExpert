@@ -18,8 +18,8 @@ let tree = TreeNode(
              TreeNode(7, nil, TreeNode(value: 8))))
 
 
-let ip = "19216820"
-print(Program.string.validIPAddresses(ip))
+let words = "Bs     4 is Great"
+print(Program.string.reverseWordsInString(words))
 
 
 

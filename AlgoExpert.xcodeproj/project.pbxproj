@@ -41,6 +41,7 @@
 		46B4BA1D29BD95DC007856D0 /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B4BA1C29BD95DC007856D0 /* ListNode.swift */; };
 		46B4BA2029BDA5C9007856D0 /* 662-Maximum Width of Binary Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B4BA1F29BDA5C9007856D0 /* 662-Maximum Width of Binary Tree.swift */; };
 		46B4BA2229BE5362007856D0 /* Dumpable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B4BA2129BE5362007856D0 /* Dumpable.swift */; };
+		DB187C3129E54A8300259657 /* Reverse Words In String.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB187C3029E54A8300259657 /* Reverse Words In String.swift */; };
 		DB352B5329D284B8001D44CB /* Palindrome Check.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB352B5229D284B8001D44CB /* Palindrome Check.swift */; };
 		DB352B5729D2857F001D44CB /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB352B5629D2857F001D44CB /* Strings.swift */; };
 		DB352B5929D28A82001D44CB /* Caesar Cipher Encryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB352B5829D28A82001D44CB /* Caesar Cipher Encryptor.swift */; };
@@ -148,6 +149,7 @@
 		46B4BA1C29BD95DC007856D0 /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
 		46B4BA1F29BDA5C9007856D0 /* 662-Maximum Width of Binary Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "662-Maximum Width of Binary Tree.swift"; sourceTree = "<group>"; };
 		46B4BA2129BE5362007856D0 /* Dumpable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dumpable.swift; sourceTree = "<group>"; };
+		DB187C3029E54A8300259657 /* Reverse Words In String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Reverse Words In String.swift"; sourceTree = "<group>"; };
 		DB352B5229D284B8001D44CB /* Palindrome Check.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Palindrome Check.swift"; sourceTree = "<group>"; };
 		DB352B5629D2857F001D44CB /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
 		DB352B5829D28A82001D44CB /* Caesar Cipher Encryptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Caesar Cipher Encryptor.swift"; sourceTree = "<group>"; };
@@ -529,6 +531,7 @@
 			children = (
 				DB53B6E329E3A6540028E2CF /* Longest Palindromic Substring.swift */,
 				DB718A0A29E507ED00D72D60 /* Valid IP Address.swift */,
+				DB187C3029E54A8300259657 /* Reverse Words In String.swift */,
 			);
 			path = Medium;
 			sourceTree = "<group>";
@@ -665,6 +668,7 @@
 				DBE4A9A129DECA1500EC186F /* Run-Length Encoding.swift in Sources */,
 				DB9BF5082775ACFA00683590 /* Product Sum.swift in Sources */,
 				46548D2F2622EB40000F9CA7 /* Find Closest Value In BST.swift in Sources */,
+				DB187C3129E54A8300259657 /* Reverse Words In String.swift in Sources */,
 				46B4BA2229BE5362007856D0 /* Dumpable.swift in Sources */,
 				4600D980261E2E420032BE3A /* Four Number Sum.swift in Sources */,
 				4600D978261E2CD80032BE3A /* Smallest Difference.swift in Sources */,
