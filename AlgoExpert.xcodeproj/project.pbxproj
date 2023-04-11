@@ -60,6 +60,7 @@
 		DB6F1947261BFE37000FD1BD /* First Duplicate Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6F1946261BFE37000FD1BD /* First Duplicate Value.swift */; };
 		DB6F194B261C045D000FD1BD /* Program.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6F194A261C045D000FD1BD /* Program.swift */; };
 		DB6F194F261C0DE5000FD1BD /* Longest Peak.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6F194E261C0DE5000FD1BD /* Longest Peak.swift */; };
+		DB718A0B29E507ED00D72D60 /* Valid IP Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB718A0A29E507ED00D72D60 /* Valid IP Address.swift */; };
 		DB9BF50327759EE500683590 /* Nth Fibonacci.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9BF50227759EE500683590 /* Nth Fibonacci.swift */; };
 		DB9BF50627759F1A00683590 /* Recursion.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9BF50527759F1A00683590 /* Recursion.swift */; };
 		DB9BF5082775ACFA00683590 /* Product Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9BF5072775ACFA00683590 /* Product Sum.swift */; };
@@ -167,6 +168,7 @@
 		DB6F1946261BFE37000FD1BD /* First Duplicate Value.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "First Duplicate Value.swift"; sourceTree = "<group>"; };
 		DB6F194A261C045D000FD1BD /* Program.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Program.swift; sourceTree = "<group>"; };
 		DB6F194E261C0DE5000FD1BD /* Longest Peak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Longest Peak.swift"; sourceTree = "<group>"; };
+		DB718A0A29E507ED00D72D60 /* Valid IP Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Valid IP Address.swift"; sourceTree = "<group>"; };
 		DB9BF50227759EE500683590 /* Nth Fibonacci.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Nth Fibonacci.swift"; sourceTree = "<group>"; };
 		DB9BF50527759F1A00683590 /* Recursion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recursion.swift; sourceTree = "<group>"; };
 		DB9BF5072775ACFA00683590 /* Product Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Product Sum.swift"; sourceTree = "<group>"; };
@@ -526,6 +528,7 @@
 			isa = PBXGroup;
 			children = (
 				DB53B6E329E3A6540028E2CF /* Longest Palindromic Substring.swift */,
+				DB718A0A29E507ED00D72D60 /* Valid IP Address.swift */,
 			);
 			path = Medium;
 			sourceTree = "<group>";
@@ -654,6 +657,7 @@
 				DB376C9F295D69C6001E4EA8 /* ZigZag Traverse.swift in Sources */,
 				46548D3A26233D2F000F9CA7 /* Min Rewards.swift in Sources */,
 				46548D3726232A7A000F9CA7 /* Largest Range.swift in Sources */,
+				DB718A0B29E507ED00D72D60 /* Valid IP Address.swift in Sources */,
 				DBE4A9A529DFB32500EC186F /* First Non-Repeating Character.swift in Sources */,
 				DB376C9B295D6715001E4EA8 /* Validate subsequence.swift in Sources */,
 				DB376C96295D664C001E4EA8 /* Two Number Sum.swift in Sources */,

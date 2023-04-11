@@ -18,8 +18,8 @@ let tree = TreeNode(
              TreeNode(7, nil, TreeNode(value: 8))))
 
 
-let str = ["abc", "bcd", "cbad"]
-print(Program.string.commonCharacters(str))
+let ip = "19216820"
+print(Program.string.validIPAddresses(ip))
 
 
 
