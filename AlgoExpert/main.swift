@@ -18,8 +18,8 @@ let tree = TreeNode(
              TreeNode(7, nil, TreeNode(value: 8))))
 
 
-let words = "Bs     4 is Great"
-print(Program.string.reverseWordsInString(words))
+let words = ["this", "that", "did", "deed", "them!", "a"]
+print(Program.string.minimumCharactersForWords(words))
 
 
 
