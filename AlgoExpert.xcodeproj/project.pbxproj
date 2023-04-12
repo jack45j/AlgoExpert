@@ -70,6 +70,7 @@
 		DBA6188C2625666500F4987A /* Arrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA6188B2625666500F4987A /* Arrays.swift */; };
 		DBA61892262568DF00F4987A /* Minimum Waiting Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA61891262568DF00F4987A /* Minimum Waiting Time.swift */; };
 		DBCDC6AD29E661C800C2D611 /* Minimum Characters For Words.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCDC6AC29E661C800C2D611 /* Minimum Characters For Words.swift */; };
+		DBCDC6AF29E6667200C2D611 /* Group Anagrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCDC6AE29E6667200C2D611 /* Group Anagrams.swift */; };
 		DBE4A9A129DECA1500EC186F /* Run-Length Encoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE4A9A029DECA1500EC186F /* Run-Length Encoding.swift */; };
 		DBE4A9A329DED0DF00EC186F /* Generate Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE4A9A229DED0DF00EC186F /* Generate Document.swift */; };
 		DBE4A9A529DFB32500EC186F /* First Non-Repeating Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE4A9A429DFB32500EC186F /* First Non-Repeating Character.swift */; };
@@ -180,6 +181,7 @@
 		DBA6188B2625666500F4987A /* Arrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arrays.swift; sourceTree = "<group>"; };
 		DBA61891262568DF00F4987A /* Minimum Waiting Time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Minimum Waiting Time.swift"; sourceTree = "<group>"; };
 		DBCDC6AC29E661C800C2D611 /* Minimum Characters For Words.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Minimum Characters For Words.swift"; sourceTree = "<group>"; };
+		DBCDC6AE29E6667200C2D611 /* Group Anagrams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Group Anagrams.swift"; sourceTree = "<group>"; };
 		DBE4A9A029DECA1500EC186F /* Run-Length Encoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Run-Length Encoding.swift"; sourceTree = "<group>"; };
 		DBE4A9A229DED0DF00EC186F /* Generate Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Generate Document.swift"; sourceTree = "<group>"; };
 		DBE4A9A429DFB32500EC186F /* First Non-Repeating Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "First Non-Repeating Character.swift"; sourceTree = "<group>"; };
@@ -535,6 +537,7 @@
 				DB718A0A29E507ED00D72D60 /* Valid IP Address.swift */,
 				DB187C3029E54A8300259657 /* Reverse Words In String.swift */,
 				DBCDC6AC29E661C800C2D611 /* Minimum Characters For Words.swift */,
+				DBCDC6AE29E6667200C2D611 /* Group Anagrams.swift */,
 			);
 			path = Medium;
 			sourceTree = "<group>";
@@ -662,6 +665,7 @@
 				46B4BA0529BD0828007856D0 /* 107-Binary Tree Level Order Traversal II .swift in Sources */,
 				DB376C9F295D69C6001E4EA8 /* ZigZag Traverse.swift in Sources */,
 				46548D3A26233D2F000F9CA7 /* Min Rewards.swift in Sources */,
+				DBCDC6AF29E6667200C2D611 /* Group Anagrams.swift in Sources */,
 				46548D3726232A7A000F9CA7 /* Largest Range.swift in Sources */,
 				DB718A0B29E507ED00D72D60 /* Valid IP Address.swift in Sources */,
 				DBE4A9A529DFB32500EC186F /* First Non-Repeating Character.swift in Sources */,

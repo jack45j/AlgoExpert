@@ -18,8 +18,8 @@ let tree = TreeNode(
              TreeNode(7, nil, TreeNode(value: 8))))
 
 
-let words = ["this", "that", "did", "deed", "them!", "a"]
-print(Program.string.minimumCharactersForWords(words))
+let words = ["yo", "act", "flop", "tac", "foo", "cat", "oy", "olfp"]
+print(Program.string.groupAnagrams(words))
 
 
 
