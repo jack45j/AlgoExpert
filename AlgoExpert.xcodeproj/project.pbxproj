@@ -45,6 +45,7 @@
 		DB352B5329D284B8001D44CB /* Palindrome Check.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB352B5229D284B8001D44CB /* Palindrome Check.swift */; };
 		DB352B5729D2857F001D44CB /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB352B5629D2857F001D44CB /* Strings.swift */; };
 		DB352B5929D28A82001D44CB /* Caesar Cipher Encryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB352B5829D28A82001D44CB /* Caesar Cipher Encryptor.swift */; };
+		DB371E2529E79A1F00079236 /* Permutations.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB371E2429E79A1F00079236 /* Permutations.swift */; };
 		DB376C94295D3108001E4EA8 /* Zero Sum Subarray.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB376C93295D3108001E4EA8 /* Zero Sum Subarray.swift */; };
 		DB376C96295D664C001E4EA8 /* Two Number Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB376C95295D664C001E4EA8 /* Two Number Sum.swift */; };
 		DB376C9B295D6715001E4EA8 /* Validate subsequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB376C9A295D6715001E4EA8 /* Validate subsequence.swift */; };
@@ -155,6 +156,7 @@
 		DB352B5229D284B8001D44CB /* Palindrome Check.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Palindrome Check.swift"; sourceTree = "<group>"; };
 		DB352B5629D2857F001D44CB /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
 		DB352B5829D28A82001D44CB /* Caesar Cipher Encryptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Caesar Cipher Encryptor.swift"; sourceTree = "<group>"; };
+		DB371E2429E79A1F00079236 /* Permutations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Permutations.swift; sourceTree = "<group>"; };
 		DB376C93295D3108001E4EA8 /* Zero Sum Subarray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Zero Sum Subarray.swift"; sourceTree = "<group>"; };
 		DB376C95295D664C001E4EA8 /* Two Number Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Two Number Sum.swift"; sourceTree = "<group>"; };
 		DB376C9A295D6715001E4EA8 /* Validate subsequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Validate subsequence.swift"; sourceTree = "<group>"; };
@@ -465,6 +467,23 @@
 			path = Easy;
 			sourceTree = "<group>";
 		};
+		DB371E2329E79A1500079236 /* Easy */ = {
+			isa = PBXGroup;
+			children = (
+				DB9BF50227759EE500683590 /* Nth Fibonacci.swift */,
+				DB9BF5072775ACFA00683590 /* Product Sum.swift */,
+			);
+			path = Easy;
+			sourceTree = "<group>";
+		};
+		DB371E2629E79A3100079236 /* Medium */ = {
+			isa = PBXGroup;
+			children = (
+				DB371E2429E79A1F00079236 /* Permutations.swift */,
+			);
+			path = Medium;
+			sourceTree = "<group>";
+		};
 		DB376C97295D6699001E4EA8 /* Easy */ = {
 			isa = PBXGroup;
 			children = (
@@ -575,8 +594,8 @@
 			isa = PBXGroup;
 			children = (
 				DB9BF50527759F1A00683590 /* Recursion.swift */,
-				DB9BF50227759EE500683590 /* Nth Fibonacci.swift */,
-				DB9BF5072775ACFA00683590 /* Product Sum.swift */,
+				DB371E2329E79A1500079236 /* Easy */,
+				DB371E2629E79A3100079236 /* Medium */,
 			);
 			path = Recursion;
 			sourceTree = "<group>";
@@ -689,6 +708,7 @@
 				DBCDC6AD29E661C800C2D611 /* Minimum Characters For Words.swift in Sources */,
 				DB6F194B261C045D000FD1BD /* Program.swift in Sources */,
 				4600D973261E2CD80032BE3A /* Spiral Traverse.swift in Sources */,
+				DB371E2529E79A1F00079236 /* Permutations.swift in Sources */,
 				DB376CA3295D9112001E4EA8 /* BST Traversal.swift in Sources */,
 				DBE4A9A729DFB4B600EC186F /* Semordnilap.swift in Sources */,
 				DB352B5729D2857F001D44CB /* Strings.swift in Sources */,

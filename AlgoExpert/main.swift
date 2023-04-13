@@ -18,8 +18,8 @@ let tree = TreeNode(
              TreeNode(7, nil, TreeNode(value: 8))))
 
 
-let words = ["yo", "act", "flop", "tac", "foo", "cat", "oy", "olfp"]
-print(Program.string.groupAnagrams(words))
+var order = [1,2,3,4]
+print(Program.recursion.permutations(array: &order))
 
 
 
