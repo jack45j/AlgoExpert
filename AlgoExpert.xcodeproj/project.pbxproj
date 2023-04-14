@@ -50,6 +50,7 @@
 		DB371E8429E9055600079236 /* Middle Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB371E8329E9055600079236 /* Middle Node.swift */; };
 		DB371E8629E91C0F00079236 /* Binary Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB371E8529E91C0F00079236 /* Binary Search.swift */; };
 		DB371E8829E91C2500079236 /* Searching.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB371E8729E91C2500079236 /* Searching.swift */; };
+		DB371E9C29E94A8800079236 /* Find Three Largest Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB371E9B29E94A8800079236 /* Find Three Largest Numbers.swift */; };
 		DB376C94295D3108001E4EA8 /* Zero Sum Subarray.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB376C93295D3108001E4EA8 /* Zero Sum Subarray.swift */; };
 		DB376C96295D664C001E4EA8 /* Two Number Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB376C95295D664C001E4EA8 /* Two Number Sum.swift */; };
 		DB376C9B295D6715001E4EA8 /* Validate subsequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB376C9A295D6715001E4EA8 /* Validate subsequence.swift */; };
@@ -165,6 +166,7 @@
 		DB371E8329E9055600079236 /* Middle Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Middle Node.swift"; sourceTree = "<group>"; };
 		DB371E8529E91C0F00079236 /* Binary Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binary Search.swift"; sourceTree = "<group>"; };
 		DB371E8729E91C2500079236 /* Searching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Searching.swift; sourceTree = "<group>"; };
+		DB371E9B29E94A8800079236 /* Find Three Largest Numbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Find Three Largest Numbers.swift"; sourceTree = "<group>"; };
 		DB376C93295D3108001E4EA8 /* Zero Sum Subarray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Zero Sum Subarray.swift"; sourceTree = "<group>"; };
 		DB376C95295D664C001E4EA8 /* Two Number Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Two Number Sum.swift"; sourceTree = "<group>"; };
 		DB376C9A295D6715001E4EA8 /* Validate subsequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Validate subsequence.swift"; sourceTree = "<group>"; };
@@ -515,6 +517,7 @@
 			isa = PBXGroup;
 			children = (
 				DB371E8529E91C0F00079236 /* Binary Search.swift */,
+				DB371E9B29E94A8800079236 /* Find Three Largest Numbers.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -694,6 +697,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB371E9C29E94A8800079236 /* Find Three Largest Numbers.swift in Sources */,
 				46185DC429608CDF00CF9A5A /* Branch Sums.swift in Sources */,
 				4600D971261E2CD80032BE3A /* Non-Constructible Change.swift in Sources */,
 				46B4BA1929BD14C5007856D0 /* Collection+additions.swift in Sources */,

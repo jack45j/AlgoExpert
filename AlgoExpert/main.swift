@@ -19,8 +19,8 @@ let tree = TreeNode(
 
 let list = ListNode(1,1,1,3,4,4,4,5,6,6)!
 
-let array = [1, 5, 23, 111]
-print(Program.search.binarySearch1(array: array, target: 112))
+let array = [55, 7, 8]
+print(Program.search.findThreeLargestNumbers(array: array))
 
 
 
