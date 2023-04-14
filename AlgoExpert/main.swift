@@ -7,7 +7,7 @@
 
 import Foundation
 
-let list = ListNode(-10, .init(-3, .init(0, .init(5, .init(9)))))
+
 let tree = TreeNode(
     4,
     TreeNode(2,
@@ -17,9 +17,9 @@ let tree = TreeNode(
              TreeNode(value: 5),
              TreeNode(7, nil, TreeNode(value: 8))))
 
-
-var order = [1,2,3,4]
-print(Program.recursion.permutations(array: &order))
+let list = ListNode(1,1,1,3,4,4,4,5,6,6)!
+//let list = ListNode(1, .init(2, .init(3, .init(4, .init(4, .init(5, .init(5, .init(6, .init(7)))))))))
+print(Program.linkList.removeDuplicatesFromLinkedList(list).dump())
 
 
 

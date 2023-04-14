@@ -16,4 +16,5 @@ class Program {
     static let bitwise = Bitwise()
     static let matrix = Matrix()
     static let string = Strings()
+    static let linkList = LinkedLists()
 }

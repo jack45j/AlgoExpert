@@ -8,12 +8,24 @@
 
 import Foundation
 
+public class LinkedLists {}
+typealias LinkedList = ListNode
+
 public class ListNode {
     public var val: Int
     public var next: ListNode?
     public init() { self.val = 0; self.next = nil; }
     public init(_ val: Int) { self.val = val; self.next = nil; }
     public init(_ val: Int, _ next: ListNode?) { self.val = val; self.next = next; }
+    public convenience init?(_ lists: Int...) {
+        guard !lists.isEmpty else { return nil }
+        self.init(lists[0])
+        var currentNode: ListNode? = self
+        for i in 1..<lists.count {
+            currentNode?.next = ListNode(lists[i])
+            currentNode = currentNode?.next
+        }
+    }
 }
 
 extension Optional where Wrapped == ListNode & Dumpable {
