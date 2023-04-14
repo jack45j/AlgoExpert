@@ -48,6 +48,8 @@
 		DB371E2529E79A1F00079236 /* Permutations.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB371E2429E79A1F00079236 /* Permutations.swift */; };
 		DB371E2829E7F2AE00079236 /* Remove Duplicates From Linked List.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB371E2729E7F2AE00079236 /* Remove Duplicates From Linked List.swift */; };
 		DB371E8429E9055600079236 /* Middle Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB371E8329E9055600079236 /* Middle Node.swift */; };
+		DB371E8629E91C0F00079236 /* Binary Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB371E8529E91C0F00079236 /* Binary Search.swift */; };
+		DB371E8829E91C2500079236 /* Searching.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB371E8729E91C2500079236 /* Searching.swift */; };
 		DB376C94295D3108001E4EA8 /* Zero Sum Subarray.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB376C93295D3108001E4EA8 /* Zero Sum Subarray.swift */; };
 		DB376C96295D664C001E4EA8 /* Two Number Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB376C95295D664C001E4EA8 /* Two Number Sum.swift */; };
 		DB376C9B295D6715001E4EA8 /* Validate subsequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB376C9A295D6715001E4EA8 /* Validate subsequence.swift */; };
@@ -161,6 +163,8 @@
 		DB371E2429E79A1F00079236 /* Permutations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Permutations.swift; sourceTree = "<group>"; };
 		DB371E2729E7F2AE00079236 /* Remove Duplicates From Linked List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Remove Duplicates From Linked List.swift"; sourceTree = "<group>"; };
 		DB371E8329E9055600079236 /* Middle Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Middle Node.swift"; sourceTree = "<group>"; };
+		DB371E8529E91C0F00079236 /* Binary Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binary Search.swift"; sourceTree = "<group>"; };
+		DB371E8729E91C2500079236 /* Searching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Searching.swift; sourceTree = "<group>"; };
 		DB376C93295D3108001E4EA8 /* Zero Sum Subarray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Zero Sum Subarray.swift"; sourceTree = "<group>"; };
 		DB376C95295D664C001E4EA8 /* Two Number Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Two Number Sum.swift"; sourceTree = "<group>"; };
 		DB376C9A295D6715001E4EA8 /* Validate subsequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Validate subsequence.swift"; sourceTree = "<group>"; };
@@ -498,6 +502,23 @@
 			path = Easy;
 			sourceTree = "<group>";
 		};
+		DB371E8929E91C5400079236 /* Searching */ = {
+			isa = PBXGroup;
+			children = (
+				DB371E8729E91C2500079236 /* Searching.swift */,
+				DB371E8A29E91C7300079236 /* Easy */,
+			);
+			path = Searching;
+			sourceTree = "<group>";
+		};
+		DB371E8A29E91C7300079236 /* Easy */ = {
+			isa = PBXGroup;
+			children = (
+				DB371E8529E91C0F00079236 /* Binary Search.swift */,
+			);
+			path = Easy;
+			sourceTree = "<group>";
+		};
 		DB376C97295D6699001E4EA8 /* Easy */ = {
 			isa = PBXGroup;
 			children = (
@@ -596,6 +617,7 @@
 			children = (
 				DB6F194A261C045D000FD1BD /* Program.swift */,
 				DB6F19262611D185000FD1BD /* main.swift */,
+				DB371E8929E91C5400079236 /* Searching */,
 				4617B74B29BCE6C700F65833 /* AlgoExpertJS */,
 				4617B75429BCE6C700F65833 /* AlgoExpertPy */,
 				4617B75129BCE6C700F65833 /* LeetCode */,
@@ -681,7 +703,9 @@
 				4600D977261E2CD80032BE3A /* Monotonic Array.swift in Sources */,
 				DB53B6E429E3A6540028E2CF /* Longest Palindromic Substring.swift in Sources */,
 				DB6F19272611D185000FD1BD /* main.swift in Sources */,
+				DB371E8629E91C0F00079236 /* Binary Search.swift in Sources */,
 				DBE4A9A329DED0DF00EC186F /* Generate Document.swift in Sources */,
+				DB371E8829E91C2500079236 /* Searching.swift in Sources */,
 				DB4A5ACE2625933700251CB9 /* BST Construction.swift in Sources */,
 				DBA618892625441100F4987A /* BinarySearchTree.swift in Sources */,
 				465370872625FA36007631C8 /* Validate BST.swift in Sources */,

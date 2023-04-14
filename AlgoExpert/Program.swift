@@ -17,4 +17,5 @@ class Program {
     static let matrix = Matrix()
     static let string = Strings()
     static let linkList = LinkedLists()
+    static let search = Searching()
 }
