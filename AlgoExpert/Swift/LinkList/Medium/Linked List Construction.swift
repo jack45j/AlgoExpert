@@ -26,7 +26,14 @@ extension DoublyLinkedList {
     }
     
     func removeNodesWithValue(value: Int) {
-        
+        var currentNode = head
+        while currentNode != nil {
+            if currentNode?.val == value {
+                guard let toRemove = currentNode else { continue }
+                remove(node: toRemove)
+            }
+            currentNode = currentNode?.next as? ListNodeWithPrev
+        }
     }
     
     func insertBefore(node: ListNodeWithPrev, nodeToInsert: ListNodeWithPrev) {
@@ -46,6 +53,7 @@ extension DoublyLinkedList {
     func setTail(node: ListNodeWithPrev) {
         self.tail?.next = node
         node.prev = self.tail
+        self.tail = node
     }
     
     func insertAtPosition(position: Int, nodeToInsert: ListNodeWithPrev) {

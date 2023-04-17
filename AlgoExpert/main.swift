@@ -61,8 +61,12 @@ tail.prev = node9
 let doublyList = DoublyLinkedList(head: head, tail: tail)
 
 doublyList.setTail(node: ListNodeWithPrev(11))
+doublyList.setTail(node: ListNodeWithPrev(11))
+doublyList.setTail(node: ListNodeWithPrev(11))
+doublyList.setTail(node: ListNodeWithPrev(11))
 doublyList.setHead(node: ListNodeWithPrev(0))
 doublyList.remove(node: node5)
+doublyList.removeNodesWithValue(value: 11)
 print(doublyList.containsNodeWithValue(value: 5))
 
 doublyList.head?.dump()
