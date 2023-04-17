@@ -52,6 +52,7 @@
 		DB371E8829E91C2500079236 /* Searching.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB371E8729E91C2500079236 /* Searching.swift */; };
 		DB371E9C29E94A8800079236 /* Find Three Largest Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB371E9B29E94A8800079236 /* Find Three Largest Numbers.swift */; };
 		DB371E9E29E94E1C00079236 /* Search In Sorted Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB371E9D29E94E1C00079236 /* Search In Sorted Matrix.swift */; };
+		DB371EA129E9615C00079236 /* Best Seat.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB371EA029E9615C00079236 /* Best Seat.swift */; };
 		DB376C94295D3108001E4EA8 /* Zero Sum Subarray.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB376C93295D3108001E4EA8 /* Zero Sum Subarray.swift */; };
 		DB376C96295D664C001E4EA8 /* Two Number Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB376C95295D664C001E4EA8 /* Two Number Sum.swift */; };
 		DB376C9B295D6715001E4EA8 /* Validate subsequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB376C9A295D6715001E4EA8 /* Validate subsequence.swift */; };
@@ -169,6 +170,7 @@
 		DB371E8729E91C2500079236 /* Searching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Searching.swift; sourceTree = "<group>"; };
 		DB371E9B29E94A8800079236 /* Find Three Largest Numbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Find Three Largest Numbers.swift"; sourceTree = "<group>"; };
 		DB371E9D29E94E1C00079236 /* Search In Sorted Matrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Search In Sorted Matrix.swift"; sourceTree = "<group>"; };
+		DB371EA029E9615C00079236 /* Best Seat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Best Seat.swift"; sourceTree = "<group>"; };
 		DB376C93295D3108001E4EA8 /* Zero Sum Subarray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Zero Sum Subarray.swift"; sourceTree = "<group>"; };
 		DB376C95295D664C001E4EA8 /* Two Number Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Two Number Sum.swift"; sourceTree = "<group>"; };
 		DB376C9A295D6715001E4EA8 /* Validate subsequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Validate subsequence.swift"; sourceTree = "<group>"; };
@@ -413,17 +415,18 @@
 			isa = PBXGroup;
 			children = (
 				46548D2C2622EB21000F9CA7 /* Arrays */,
-				46185DC529608CE500CF9A5A /* Binary Trees */,
 				46548D312622EB45000F9CA7 /* Binary Search Trees */,
-				46B4BA1E29BD95EE007856D0 /* LinkList */,
-				46185DCD2962855500CF9A5A /* Famous Algorithms */,
-				46185DD329628ABF00CF9A5A /* Greedy Algorithms */,
-				DB9BF50427759EE900683590 /* Recursion */,
-				46B4BA0929BD0C88007856D0 /* Dynamic Programming */,
+				46185DC529608CE500CF9A5A /* Binary Trees */,
 				46B4BA0E29BD0DB6007856D0 /* Bitwise */,
-				46B4BA1529BD126F007856D0 /* Matrxix */,
 				46B4BA1829BD14C5007856D0 /* Collection+additions.swift */,
 				46B4BA2129BE5362007856D0 /* Dumpable.swift */,
+				46B4BA0929BD0C88007856D0 /* Dynamic Programming */,
+				46185DCD2962855500CF9A5A /* Famous Algorithms */,
+				46185DD329628ABF00CF9A5A /* Greedy Algorithms */,
+				46B4BA1E29BD95EE007856D0 /* LinkList */,
+				46B4BA1529BD126F007856D0 /* Matrxix */,
+				DB9BF50427759EE900683590 /* Recursion */,
+				DB371E8929E91C5400079236 /* Searching */,
 				DB352B5429D2850F001D44CB /* Strings */,
 			);
 			path = Swift;
@@ -560,6 +563,7 @@
 				DB6F1946261BFE37000FD1BD /* First Duplicate Value.swift */,
 				46548D282622E6E8000F9CA7 /* Merge Overlapping Intervals.swift */,
 				DB376C93295D3108001E4EA8 /* Zero Sum Subarray.swift */,
+				DB371EA029E9615C00079236 /* Best Seat.swift */,
 			);
 			path = Medium;
 			sourceTree = "<group>";
@@ -631,7 +635,6 @@
 			children = (
 				DB6F194A261C045D000FD1BD /* Program.swift */,
 				DB6F19262611D185000FD1BD /* main.swift */,
-				DB371E8929E91C5400079236 /* Searching */,
 				4617B74B29BCE6C700F65833 /* AlgoExpertJS */,
 				4617B75429BCE6C700F65833 /* AlgoExpertPy */,
 				4617B75129BCE6C700F65833 /* LeetCode */,
@@ -781,6 +784,7 @@
 				46B4BA1229BD0FA8007856D0 /* 66-Plus One .swift in Sources */,
 				DB371E2829E7F2AE00079236 /* Remove Duplicates From Linked List.swift in Sources */,
 				DB376CA7295EBC09001E4EA8 /* Find Kth Largest Value In BST.swift in Sources */,
+				DB371EA129E9615C00079236 /* Best Seat.swift in Sources */,
 				DBA618842625364200F4987A /* TreeNode.swift in Sources */,
 				46548D3426231199000F9CA7 /* Subarray Sort.swift in Sources */,
 			);

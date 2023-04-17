@@ -27,7 +27,9 @@ let matrix = [
     [40,  41,  42,  44,  45, 1003],
     [99, 100, 103, 106, 128, 1004]
 ]
-print(Program.search.searchInSortedMatrix(matrix: matrix, target: 0))
+
+let seats = [1]
+print(Program.arrays.bestSeat(seats))
 
 
 
