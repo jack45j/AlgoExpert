@@ -53,6 +53,7 @@
 		DB371E9C29E94A8800079236 /* Find Three Largest Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB371E9B29E94A8800079236 /* Find Three Largest Numbers.swift */; };
 		DB371E9E29E94E1C00079236 /* Search In Sorted Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB371E9D29E94E1C00079236 /* Search In Sorted Matrix.swift */; };
 		DB371EA129E9615C00079236 /* Best Seat.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB371EA029E9615C00079236 /* Best Seat.swift */; };
+		DB371EA329ECE6E000079236 /* Linked List Construction.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB371EA229ECE6E000079236 /* Linked List Construction.swift */; };
 		DB376C94295D3108001E4EA8 /* Zero Sum Subarray.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB376C93295D3108001E4EA8 /* Zero Sum Subarray.swift */; };
 		DB376C96295D664C001E4EA8 /* Two Number Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB376C95295D664C001E4EA8 /* Two Number Sum.swift */; };
 		DB376C9B295D6715001E4EA8 /* Validate subsequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB376C9A295D6715001E4EA8 /* Validate subsequence.swift */; };
@@ -171,6 +172,7 @@
 		DB371E9B29E94A8800079236 /* Find Three Largest Numbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Find Three Largest Numbers.swift"; sourceTree = "<group>"; };
 		DB371E9D29E94E1C00079236 /* Search In Sorted Matrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Search In Sorted Matrix.swift"; sourceTree = "<group>"; };
 		DB371EA029E9615C00079236 /* Best Seat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Best Seat.swift"; sourceTree = "<group>"; };
+		DB371EA229ECE6E000079236 /* Linked List Construction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Linked List Construction.swift"; sourceTree = "<group>"; };
 		DB376C93295D3108001E4EA8 /* Zero Sum Subarray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Zero Sum Subarray.swift"; sourceTree = "<group>"; };
 		DB376C95295D664C001E4EA8 /* Two Number Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Two Number Sum.swift"; sourceTree = "<group>"; };
 		DB376C9A295D6715001E4EA8 /* Validate subsequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Validate subsequence.swift"; sourceTree = "<group>"; };
@@ -455,6 +457,7 @@
 			children = (
 				46B4BA1C29BD95DC007856D0 /* ListNode.swift */,
 				DB371E8229E9054400079236 /* Easy */,
+				DB371EA429ECE7B500079236 /* Medium */,
 			);
 			path = LinkList;
 			sourceTree = "<group>";
@@ -532,6 +535,14 @@
 			isa = PBXGroup;
 			children = (
 				DB371E9D29E94E1C00079236 /* Search In Sorted Matrix.swift */,
+			);
+			path = Medium;
+			sourceTree = "<group>";
+		};
+		DB371EA429ECE7B500079236 /* Medium */ = {
+			isa = PBXGroup;
+			children = (
+				DB371EA229ECE6E000079236 /* Linked List Construction.swift */,
 			);
 			path = Medium;
 			sourceTree = "<group>";
@@ -760,6 +771,7 @@
 				4600D96F261E2CD80032BE3A /* Array Of Products.swift in Sources */,
 				DBA6188C2625666500F4987A /* Arrays.swift in Sources */,
 				DB376C9D295D6749001E4EA8 /* Sorted Squred Array.swift in Sources */,
+				DB371EA329ECE6E000079236 /* Linked List Construction.swift in Sources */,
 				DBA61892262568DF00F4987A /* Minimum Waiting Time.swift in Sources */,
 				DB9BF50627759F1A00683590 /* Recursion.swift in Sources */,
 				DBCDC6AD29E661C800C2D611 /* Minimum Characters For Words.swift in Sources */,

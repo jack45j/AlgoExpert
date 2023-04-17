@@ -28,6 +28,20 @@ public class ListNode {
     }
 }
 
+public class ListNodeWithPrev: ListNode {
+    var prev: ListNodeWithPrev?
+}
+
+public class DoublyLinkedList {
+    var head: ListNodeWithPrev?
+    var tail: ListNodeWithPrev?
+    
+    init(head: ListNodeWithPrev? = nil, tail: ListNodeWithPrev? = nil) {
+        self.head = head
+        self.tail = tail
+    }
+}
+
 extension Optional where Wrapped == ListNode & Dumpable {
     func dump() {
         return
