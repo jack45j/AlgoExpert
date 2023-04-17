@@ -21,7 +21,8 @@ extension DoublyLinkedList {
     }
     
     func remove(node: ListNodeWithPrev) {
-        
+        (node.next as? ListNodeWithPrev)?.prev = node.prev
+        node.prev?.next = node.next
     }
     
     func removeNodesWithValue(value: Int) {
