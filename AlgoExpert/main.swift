@@ -58,19 +58,12 @@ let tail = ListNodeWithPrev(10)
 node9.next = tail
 tail.prev = node9
 
-let doublyList = DoublyLinkedList(head: head, tail: tail)
+let doubly = DoublyLinkedList(head: head, tail: node4)
+doubly.tail?.next = nil
+doubly.head?.dump()
 
-doublyList.setTail(node: ListNodeWithPrev(11))
-doublyList.setTail(node: ListNodeWithPrev(11))
-doublyList.setTail(node: ListNodeWithPrev(11))
-doublyList.setTail(node: ListNodeWithPrev(11))
-doublyList.setHead(node: ListNodeWithPrev(0))
-doublyList.remove(node: node5)
-doublyList.removeNodesWithValue(value: 11)
-print(doublyList.containsNodeWithValue(value: 5))
-
-doublyList.head?.dump()
-
+doubly.setTail(node: head)
+doubly.head?.dump()
 
 
 
