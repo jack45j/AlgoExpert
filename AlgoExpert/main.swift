@@ -28,11 +28,13 @@ let matrix = [
     [99, 100, 103, 106, 128, 1004]
 ]
 
-
-let head = ListNodeWithPrev(1)
+let head = ListNodeWithPrev(0)
+let node1 = ListNodeWithPrev(1)
+head.next = node1
+node1.prev = head
 let node2 = ListNodeWithPrev(2)
-head.next = node2
-node2.prev = head
+node1.next = node2
+node2.prev = node1
 let node3 = ListNodeWithPrev(3)
 node2.next = node3
 node3.prev = node2
@@ -54,16 +56,15 @@ node8.prev = node7
 let node9 = ListNodeWithPrev(9)
 node8.next = node9
 node9.prev = node8
-let tail = ListNodeWithPrev(10)
-node9.next = tail
-tail.prev = node9
+//let tail = ListNodeWithPrev(10)
+//node9.next = tail
+//tail.prev = node9
 
-let doubly = DoublyLinkedList(head: head, tail: node4)
-doubly.tail?.next = nil
-doubly.head?.dump()
+//let doubly = DoublyLinkedList(head: head, tail: tail.prev)
 
-doubly.setTail(node: head)
-doubly.head?.dump()
+head.dump()
+head.removeKthNodeFromEnd(head: head, k: 9)
+head.dump()
 
 
 

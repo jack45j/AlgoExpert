@@ -54,6 +54,7 @@
 		DB371E9E29E94E1C00079236 /* Search In Sorted Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB371E9D29E94E1C00079236 /* Search In Sorted Matrix.swift */; };
 		DB371EA129E9615C00079236 /* Best Seat.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB371EA029E9615C00079236 /* Best Seat.swift */; };
 		DB371EA329ECE6E000079236 /* Linked List Construction.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB371EA229ECE6E000079236 /* Linked List Construction.swift */; };
+		DB371EA629EE4F8800079236 /* Remove Kth Node From End.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB371EA529EE4F8800079236 /* Remove Kth Node From End.swift */; };
 		DB376C94295D3108001E4EA8 /* Zero Sum Subarray.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB376C93295D3108001E4EA8 /* Zero Sum Subarray.swift */; };
 		DB376C96295D664C001E4EA8 /* Two Number Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB376C95295D664C001E4EA8 /* Two Number Sum.swift */; };
 		DB376C9B295D6715001E4EA8 /* Validate subsequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB376C9A295D6715001E4EA8 /* Validate subsequence.swift */; };
@@ -173,6 +174,7 @@
 		DB371E9D29E94E1C00079236 /* Search In Sorted Matrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Search In Sorted Matrix.swift"; sourceTree = "<group>"; };
 		DB371EA029E9615C00079236 /* Best Seat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Best Seat.swift"; sourceTree = "<group>"; };
 		DB371EA229ECE6E000079236 /* Linked List Construction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Linked List Construction.swift"; sourceTree = "<group>"; };
+		DB371EA529EE4F8800079236 /* Remove Kth Node From End.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Remove Kth Node From End.swift"; sourceTree = "<group>"; };
 		DB376C93295D3108001E4EA8 /* Zero Sum Subarray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Zero Sum Subarray.swift"; sourceTree = "<group>"; };
 		DB376C95295D664C001E4EA8 /* Two Number Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Two Number Sum.swift"; sourceTree = "<group>"; };
 		DB376C9A295D6715001E4EA8 /* Validate subsequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Validate subsequence.swift"; sourceTree = "<group>"; };
@@ -543,6 +545,7 @@
 			isa = PBXGroup;
 			children = (
 				DB371EA229ECE6E000079236 /* Linked List Construction.swift */,
+				DB371EA529EE4F8800079236 /* Remove Kth Node From End.swift */,
 			);
 			path = Medium;
 			sourceTree = "<group>";
@@ -795,6 +798,7 @@
 				DB53B6E729E3B8B10028E2CF /* Common Characters.swift in Sources */,
 				46B4BA1229BD0FA8007856D0 /* 66-Plus One .swift in Sources */,
 				DB371E2829E7F2AE00079236 /* Remove Duplicates From Linked List.swift in Sources */,
+				DB371EA629EE4F8800079236 /* Remove Kth Node From End.swift in Sources */,
 				DB376CA7295EBC09001E4EA8 /* Find Kth Largest Value In BST.swift in Sources */,
 				DB371EA129E9615C00079236 /* Best Seat.swift in Sources */,
 				DBA618842625364200F4987A /* TreeNode.swift in Sources */,
