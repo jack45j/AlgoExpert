@@ -61,10 +61,10 @@ node9.prev = node8
 //tail.prev = node9
 
 //let doubly = DoublyLinkedList(head: head, tail: tail.prev)
+let list1 = ListNode(2)!
+let list2 = ListNode(9)!
 
-head.dump()
-head.removeKthNodeFromEnd(head: head, k: 9)
-head.dump()
+Program.linkList.sumOfLinkedLists(list1, list2)?.dump()
 
 
 
