@@ -70,7 +70,7 @@ graph.children[0].children[1].addChild(name: "I").addChild(name: "J")
 graph.children[2].children[0].addChild(name: "K")
 
 var beSortArr = [2,3,1,52,6,2,512,6,12,41,2,0,512,3123,1]
-Program.sorting.bubbleSort(array: &beSortArr)
+Program.sorting.insertionSort(array: &beSortArr)
 print(beSortArr)
 
 
