@@ -9,6 +9,7 @@
 import Foundation
 
 extension Sorting {
+    @discardableResult
     func bubbleSort(array: inout [Int]) -> [Int] {
         guard !array.isEmpty else { return [] }
         var count = array.count
