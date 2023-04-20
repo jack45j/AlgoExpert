@@ -95,6 +95,7 @@
 		DBEA071B29F0EA4600CA9296 /* Tandem Bicycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEA071A29F0EA4600CA9296 /* Tandem Bicycle.swift */; };
 		DBEA071D29F0EC3600CA9296 /* Insertion Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEA071C29F0EC3600CA9296 /* Insertion Sort.swift */; };
 		DBEA071F29F0F12A00CA9296 /* Selection Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEA071E29F0F12A00CA9296 /* Selection Sort.swift */; };
+		DBEA072129F1091900CA9296 /* Evaluate Expression Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEA072029F1091900CA9296 /* Evaluate Expression Tree.swift */; };
 		DBF81B9C29EF95C6003F8BD1 /* Sum Of Linked List.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF81B9B29EF95C6003F8BD1 /* Sum Of Linked List.swift */; };
 /* End PBXBuildFile section */
 
@@ -227,6 +228,7 @@
 		DBEA071A29F0EA4600CA9296 /* Tandem Bicycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tandem Bicycle.swift"; sourceTree = "<group>"; };
 		DBEA071C29F0EC3600CA9296 /* Insertion Sort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Insertion Sort.swift"; sourceTree = "<group>"; };
 		DBEA071E29F0F12A00CA9296 /* Selection Sort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Selection Sort.swift"; sourceTree = "<group>"; };
+		DBEA072029F1091900CA9296 /* Evaluate Expression Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Evaluate Expression Tree.swift"; sourceTree = "<group>"; };
 		DBF81B9B29EF95C6003F8BD1 /* Sum Of Linked List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sum Of Linked List.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -352,6 +354,7 @@
 			children = (
 				46185DC329608CDF00CF9A5A /* Branch Sums.swift */,
 				46185DC9296098DC00CF9A5A /* Node Depths.swift */,
+				DBEA072029F1091900CA9296 /* Evaluate Expression Tree.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -826,6 +829,7 @@
 				46548D3726232A7A000F9CA7 /* Largest Range.swift in Sources */,
 				DB718A0B29E507ED00D72D60 /* Valid IP Address.swift in Sources */,
 				DBE4A9A529DFB32500EC186F /* First Non-Repeating Character.swift in Sources */,
+				DBEA072129F1091900CA9296 /* Evaluate Expression Tree.swift in Sources */,
 				DB376C9B295D6715001E4EA8 /* Validate subsequence.swift in Sources */,
 				DBEA071929F0E29900CA9296 /* Class Photos.swift in Sources */,
 				DB376C96295D664C001E4EA8 /* Two Number Sum.swift in Sources */,

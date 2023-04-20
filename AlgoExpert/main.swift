@@ -8,14 +8,14 @@
 import Foundation
 
 
-let tree = TreeNode(
-    4,
-    TreeNode(2,
-             TreeNode(value: 1),
-             TreeNode(value: 3)),
-    TreeNode(6,
-             TreeNode(value: 5),
-             TreeNode(7, nil, TreeNode(value: 8))))
+//let tree = TreeNode(
+//    4,
+//    TreeNode(2,
+//             TreeNode(value: 1),
+//             TreeNode(value: 3)),
+//    TreeNode(6,
+//             TreeNode(value: 5),
+//             TreeNode(7, nil, TreeNode(value: 8))))
 
 let list = ListNode(1,1,1,3,4,4,4,5,6,6)!
 
@@ -69,11 +69,13 @@ graph.children[2].addChild(name: "G").addChild(name: "H")
 graph.children[0].children[1].addChild(name: "I").addChild(name: "J")
 graph.children[2].children[0].addChild(name: "K")
 
-var beSortArr = [2,3,1,52,6,2,512,6,12,41,2,0,512,3123,1]
-Program.sorting.selectionSort(array: &beSortArr)
-print(beSortArr)
+let tree = TreeNode(value: -1)
+tree.left = TreeNode(value: 2)
+tree.right = TreeNode(value: -2)
+tree.right!.left = TreeNode(value: 5)
+tree.right!.right = TreeNode(value: 1)
 
-
+print(Program.binaryTree.evaluateExpressionTree(tree))
 
 
 
