@@ -61,10 +61,10 @@ node9.prev = node8
 //tail.prev = node9
 
 //let doubly = DoublyLinkedList(head: head, tail: tail.prev)
-let list1 = ListNode(2)!
-let list2 = ListNode(9)!
 
-Program.linkList.sumOfLinkedLists(list1, list2)?.dump()
+let list2 = LinkedList(5, .init(4, .init(3, node6)))
+
+Program.linkList.mergingLinkedLists1(head, list2)?.dump()
 
 
 

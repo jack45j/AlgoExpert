@@ -28,6 +28,16 @@ public class ListNode {
     }
 }
 
+extension ListNode: Hashable {
+    public func hash(into hasher: inout Hasher) {
+        hasher.combine(ObjectIdentifier(self).hashValue)
+    }
+    
+    public static func == (left: ListNode, right: ListNode) -> Bool {
+        return left === right
+    }
+}
+
 public class ListNodeWithPrev: ListNode {
     var prev: ListNodeWithPrev?
 }

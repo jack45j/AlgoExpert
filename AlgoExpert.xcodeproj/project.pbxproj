@@ -85,6 +85,7 @@
 		DBE4A9A329DED0DF00EC186F /* Generate Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE4A9A229DED0DF00EC186F /* Generate Document.swift */; };
 		DBE4A9A529DFB32500EC186F /* First Non-Repeating Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE4A9A429DFB32500EC186F /* First Non-Repeating Character.swift */; };
 		DBE4A9A729DFB4B600EC186F /* Semordnilap.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE4A9A629DFB4B600EC186F /* Semordnilap.swift */; };
+		DBEA070829EFD92E00CA9296 /* Merging Linked List.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEA070729EFD92E00CA9296 /* Merging Linked List.swift */; };
 		DBF81B9C29EF95C6003F8BD1 /* Sum Of Linked List.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF81B9B29EF95C6003F8BD1 /* Sum Of Linked List.swift */; };
 /* End PBXBuildFile section */
 
@@ -207,6 +208,7 @@
 		DBE4A9A229DED0DF00EC186F /* Generate Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Generate Document.swift"; sourceTree = "<group>"; };
 		DBE4A9A429DFB32500EC186F /* First Non-Repeating Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "First Non-Repeating Character.swift"; sourceTree = "<group>"; };
 		DBE4A9A629DFB4B600EC186F /* Semordnilap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Semordnilap.swift; sourceTree = "<group>"; };
+		DBEA070729EFD92E00CA9296 /* Merging Linked List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Merging Linked List.swift"; sourceTree = "<group>"; };
 		DBF81B9B29EF95C6003F8BD1 /* Sum Of Linked List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sum Of Linked List.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -549,6 +551,7 @@
 				DB371EA229ECE6E000079236 /* Linked List Construction.swift */,
 				DB371EA529EE4F8800079236 /* Remove Kth Node From End.swift */,
 				DBF81B9B29EF95C6003F8BD1 /* Sum Of Linked List.swift */,
+				DBEA070729EFD92E00CA9296 /* Merging Linked List.swift */,
 			);
 			path = Medium;
 			sourceTree = "<group>";
@@ -776,6 +779,7 @@
 				DB376CA9295EBFB3001E4EA8 /* Reconstruct BST.swift in Sources */,
 				4600D96F261E2CD80032BE3A /* Array Of Products.swift in Sources */,
 				DBA6188C2625666500F4987A /* Arrays.swift in Sources */,
+				DBEA070829EFD92E00CA9296 /* Merging Linked List.swift in Sources */,
 				DB376C9D295D6749001E4EA8 /* Sorted Squred Array.swift in Sources */,
 				DB371EA329ECE6E000079236 /* Linked List Construction.swift in Sources */,
 				DBA61892262568DF00F4987A /* Minimum Waiting Time.swift in Sources */,
