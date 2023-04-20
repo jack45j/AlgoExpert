@@ -86,6 +86,11 @@
 		DBE4A9A529DFB32500EC186F /* First Non-Repeating Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE4A9A429DFB32500EC186F /* First Non-Repeating Character.swift */; };
 		DBE4A9A729DFB4B600EC186F /* Semordnilap.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE4A9A629DFB4B600EC186F /* Semordnilap.swift */; };
 		DBEA070829EFD92E00CA9296 /* Merging Linked List.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEA070729EFD92E00CA9296 /* Merging Linked List.swift */; };
+		DBEA070A29F0D5FC00CA9296 /* Depth-First Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEA070929F0D5FC00CA9296 /* Depth-First Search.swift */; };
+		DBEA070E29F0D62300CA9296 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEA070D29F0D62300CA9296 /* Graph.swift */; };
+		DBEA071029F0D84B00CA9296 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEA070F29F0D84B00CA9296 /* Node.swift */; };
+		DBEA071229F0E06000CA9296 /* Sorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEA071129F0E06000CA9296 /* Sorting.swift */; };
+		DBEA071629F0E08200CA9296 /* Bubble Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEA071529F0E08200CA9296 /* Bubble Sort.swift */; };
 		DBF81B9C29EF95C6003F8BD1 /* Sum Of Linked List.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF81B9B29EF95C6003F8BD1 /* Sum Of Linked List.swift */; };
 /* End PBXBuildFile section */
 
@@ -209,6 +214,11 @@
 		DBE4A9A429DFB32500EC186F /* First Non-Repeating Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "First Non-Repeating Character.swift"; sourceTree = "<group>"; };
 		DBE4A9A629DFB4B600EC186F /* Semordnilap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Semordnilap.swift; sourceTree = "<group>"; };
 		DBEA070729EFD92E00CA9296 /* Merging Linked List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Merging Linked List.swift"; sourceTree = "<group>"; };
+		DBEA070929F0D5FC00CA9296 /* Depth-First Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Depth-First Search.swift"; sourceTree = "<group>"; };
+		DBEA070D29F0D62300CA9296 /* Graph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
+		DBEA070F29F0D84B00CA9296 /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		DBEA071129F0E06000CA9296 /* Sorting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sorting.swift; sourceTree = "<group>"; };
+		DBEA071529F0E08200CA9296 /* Bubble Sort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bubble Sort.swift"; sourceTree = "<group>"; };
 		DBF81B9B29EF95C6003F8BD1 /* Sum Of Linked List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sum Of Linked List.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -436,6 +446,8 @@
 				DB9BF50427759EE900683590 /* Recursion */,
 				DB371E8929E91C5400079236 /* Searching */,
 				DB352B5429D2850F001D44CB /* Strings */,
+				DBEA070B29F0D61400CA9296 /* Graph */,
+				DBEA071429F0E06B00CA9296 /* Sorting */,
 			);
 			path = Swift;
 			sourceTree = "<group>";
@@ -673,6 +685,41 @@
 			path = Recursion;
 			sourceTree = "<group>";
 		};
+		DBEA070B29F0D61400CA9296 /* Graph */ = {
+			isa = PBXGroup;
+			children = (
+				DBEA070D29F0D62300CA9296 /* Graph.swift */,
+				DBEA070F29F0D84B00CA9296 /* Node.swift */,
+				DBEA070C29F0D61B00CA9296 /* Easy */,
+			);
+			path = Graph;
+			sourceTree = "<group>";
+		};
+		DBEA070C29F0D61B00CA9296 /* Easy */ = {
+			isa = PBXGroup;
+			children = (
+				DBEA070929F0D5FC00CA9296 /* Depth-First Search.swift */,
+			);
+			path = Easy;
+			sourceTree = "<group>";
+		};
+		DBEA071429F0E06B00CA9296 /* Sorting */ = {
+			isa = PBXGroup;
+			children = (
+				DBEA071129F0E06000CA9296 /* Sorting.swift */,
+				DBEA071729F0E09100CA9296 /* Easy */,
+			);
+			path = Sorting;
+			sourceTree = "<group>";
+		};
+		DBEA071729F0E09100CA9296 /* Easy */ = {
+			isa = PBXGroup;
+			children = (
+				DBEA071529F0E08200CA9296 /* Bubble Sort.swift */,
+			);
+			path = Easy;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -749,6 +796,7 @@
 				465370872625FA36007631C8 /* Validate BST.swift in Sources */,
 				46B4BA1029BD0DC1007856D0 /* Bitwise.swift in Sources */,
 				46185DCA296098DC00CF9A5A /* Node Depths.swift in Sources */,
+				DBEA071229F0E06000CA9296 /* Sorting.swift in Sources */,
 				46548D292622E6E8000F9CA7 /* Merge Overlapping Intervals.swift in Sources */,
 				46185DCC2962854C00CF9A5A /* A* Algorithm.swift in Sources */,
 				4600D96E261E2CD80032BE3A /* Move Element To End.swift in Sources */,
@@ -767,6 +815,7 @@
 				DBE4A9A529DFB32500EC186F /* First Non-Repeating Character.swift in Sources */,
 				DB376C9B295D6715001E4EA8 /* Validate subsequence.swift in Sources */,
 				DB376C96295D664C001E4EA8 /* Two Number Sum.swift in Sources */,
+				DBEA071029F0D84B00CA9296 /* Node.swift in Sources */,
 				46B4BA1729BD1279007856D0 /* Matrix.swift in Sources */,
 				DBE4A9A129DECA1500EC186F /* Run-Length Encoding.swift in Sources */,
 				DB9BF5082775ACFA00683590 /* Product Sum.swift in Sources */,
@@ -774,11 +823,13 @@
 				DB187C3129E54A8300259657 /* Reverse Words In String.swift in Sources */,
 				46B4BA2229BE5362007856D0 /* Dumpable.swift in Sources */,
 				4600D980261E2E420032BE3A /* Four Number Sum.swift in Sources */,
+				DBEA071629F0E08200CA9296 /* Bubble Sort.swift in Sources */,
 				4600D978261E2CD80032BE3A /* Smallest Difference.swift in Sources */,
 				4600D976261E2CD80032BE3A /* Tournament Winner.swift in Sources */,
 				DB376CA9295EBFB3001E4EA8 /* Reconstruct BST.swift in Sources */,
 				4600D96F261E2CD80032BE3A /* Array Of Products.swift in Sources */,
 				DBA6188C2625666500F4987A /* Arrays.swift in Sources */,
+				DBEA070E29F0D62300CA9296 /* Graph.swift in Sources */,
 				DBEA070829EFD92E00CA9296 /* Merging Linked List.swift in Sources */,
 				DB376C9D295D6749001E4EA8 /* Sorted Squred Array.swift in Sources */,
 				DB371EA329ECE6E000079236 /* Linked List Construction.swift in Sources */,
@@ -793,6 +844,7 @@
 				DB371E9E29E94E1C00079236 /* Search In Sorted Matrix.swift in Sources */,
 				DB352B5729D2857F001D44CB /* Strings.swift in Sources */,
 				DB352B5929D28A82001D44CB /* Caesar Cipher Encryptor.swift in Sources */,
+				DBEA070A29F0D5FC00CA9296 /* Depth-First Search.swift in Sources */,
 				46B4BA1B29BD957D007856D0 /* 109-Convert Sorted List to Binary Search Tree.swift in Sources */,
 				46B4BA0829BD0C85007856D0 /* 264-Ugly Number II .swift in Sources */,
 				46185DD02962856C00CF9A5A /* Famous Algorithms.swift in Sources */,

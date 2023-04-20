@@ -18,4 +18,6 @@ class Program {
     static let string = Strings()
     static let linkList = LinkedLists()
     static let search = Searching()
+    static let graph = Graph()
+    static let sorting = Sorting()
 }

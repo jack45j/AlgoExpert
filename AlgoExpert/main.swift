@@ -62,10 +62,16 @@ node9.prev = node8
 
 //let doubly = DoublyLinkedList(head: head, tail: tail.prev)
 
-let list2 = LinkedList(5, .init(4, .init(3, node6)))
+let graph = Node(name: "A")
+graph.addChild(name: "B").addChild(name: "C").addChild(name: "D")
+graph.children[0].addChild(name: "E").addChild(name: "F")
+graph.children[2].addChild(name: "G").addChild(name: "H")
+graph.children[0].children[1].addChild(name: "I").addChild(name: "J")
+graph.children[2].children[0].addChild(name: "K")
 
-Program.linkList.mergingLinkedLists1(head, list2)?.dump()
-
+var beSortArr = [2,3,1,52,6,2,512,6,12,41,2,0,512,3123,1]
+Program.sorting.bubbleSort(array: &beSortArr)
+print(beSortArr)
 
 
 
