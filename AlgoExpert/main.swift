@@ -75,8 +75,10 @@ tree.right = TreeNode(value: -2)
 tree.right!.left = TreeNode(value: 5)
 tree.right!.right = TreeNode(value: 1)
 
-print(Program.binaryTree.evaluateExpressionTree(tree))
+//print(Program.binaryTree.evaluateExpressionTree(tree))
 
+var nums = [1,2,3,4]
+print(Program.recursion.powerset(array: nums))
 
 
 

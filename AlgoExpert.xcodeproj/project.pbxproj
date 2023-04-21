@@ -97,6 +97,7 @@
 		DBEA071F29F0F12A00CA9296 /* Selection Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEA071E29F0F12A00CA9296 /* Selection Sort.swift */; };
 		DBEA072129F1091900CA9296 /* Evaluate Expression Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEA072029F1091900CA9296 /* Evaluate Expression Tree.swift */; };
 		DBF81B9C29EF95C6003F8BD1 /* Sum Of Linked List.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF81B9B29EF95C6003F8BD1 /* Sum Of Linked List.swift */; };
+		DBF8D7DA29F23CE000DA9E11 /* Powerset.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF8D7D929F23CE000DA9E11 /* Powerset.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -230,6 +231,7 @@
 		DBEA071E29F0F12A00CA9296 /* Selection Sort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Selection Sort.swift"; sourceTree = "<group>"; };
 		DBEA072029F1091900CA9296 /* Evaluate Expression Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Evaluate Expression Tree.swift"; sourceTree = "<group>"; };
 		DBF81B9B29EF95C6003F8BD1 /* Sum Of Linked List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sum Of Linked List.swift"; sourceTree = "<group>"; };
+		DBF8D7D929F23CE000DA9E11 /* Powerset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Powerset.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -530,6 +532,7 @@
 			isa = PBXGroup;
 			children = (
 				DB371E2429E79A1F00079236 /* Permutations.swift */,
+				DBF8D7D929F23CE000DA9E11 /* Powerset.swift */,
 			);
 			path = Medium;
 			sourceTree = "<group>";
@@ -805,6 +808,7 @@
 				DB6F19272611D185000FD1BD /* main.swift in Sources */,
 				DB371E8629E91C0F00079236 /* Binary Search.swift in Sources */,
 				DBE4A9A329DED0DF00EC186F /* Generate Document.swift in Sources */,
+				DBF8D7DA29F23CE000DA9E11 /* Powerset.swift in Sources */,
 				DB371E8829E91C2500079236 /* Searching.swift in Sources */,
 				DB4A5ACE2625933700251CB9 /* BST Construction.swift in Sources */,
 				DBA618892625441100F4987A /* BinarySearchTree.swift in Sources */,

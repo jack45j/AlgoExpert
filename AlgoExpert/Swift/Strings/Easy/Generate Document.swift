@@ -12,7 +12,7 @@ extension Strings {
     func generateDocument(_ characters: String, _ document: String) -> Bool {
         var hash: [Character: Int] = [:]
         for char in characters {
-            hash[char, default: 1] += 1
+            hash[char, default: 0] += 1
         }
         
         for char in document {
