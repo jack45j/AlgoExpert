@@ -77,8 +77,8 @@ tree.right!.right = TreeNode(value: 1)
 
 //print(Program.binaryTree.evaluateExpressionTree(tree))
 
-var nums = [1,2,3,4]
-print(Program.recursion.powerset(array: nums))
+var nums = [2,2,3,4]
+print(Program.recursion.phoneNumberMnemonics("2120"))
 
 
 

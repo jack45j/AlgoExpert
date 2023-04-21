@@ -98,6 +98,7 @@
 		DBEA072129F1091900CA9296 /* Evaluate Expression Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEA072029F1091900CA9296 /* Evaluate Expression Tree.swift */; };
 		DBF81B9C29EF95C6003F8BD1 /* Sum Of Linked List.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF81B9B29EF95C6003F8BD1 /* Sum Of Linked List.swift */; };
 		DBF8D7DA29F23CE000DA9E11 /* Powerset.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF8D7D929F23CE000DA9E11 /* Powerset.swift */; };
+		DBF8D7DC29F2608800DA9E11 /* Phone Number Mnemonics.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF8D7DB29F2608800DA9E11 /* Phone Number Mnemonics.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -232,6 +233,7 @@
 		DBEA072029F1091900CA9296 /* Evaluate Expression Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Evaluate Expression Tree.swift"; sourceTree = "<group>"; };
 		DBF81B9B29EF95C6003F8BD1 /* Sum Of Linked List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sum Of Linked List.swift"; sourceTree = "<group>"; };
 		DBF8D7D929F23CE000DA9E11 /* Powerset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Powerset.swift; sourceTree = "<group>"; };
+		DBF8D7DB29F2608800DA9E11 /* Phone Number Mnemonics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Phone Number Mnemonics.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -533,6 +535,7 @@
 			children = (
 				DB371E2429E79A1F00079236 /* Permutations.swift */,
 				DBF8D7D929F23CE000DA9E11 /* Powerset.swift */,
+				DBF8D7DB29F2608800DA9E11 /* Phone Number Mnemonics.swift */,
 			);
 			path = Medium;
 			sourceTree = "<group>";
@@ -863,6 +866,7 @@
 				4600D973261E2CD80032BE3A /* Spiral Traverse.swift in Sources */,
 				DB371E2529E79A1F00079236 /* Permutations.swift in Sources */,
 				DB376CA3295D9112001E4EA8 /* BST Traversal.swift in Sources */,
+				DBF8D7DC29F2608800DA9E11 /* Phone Number Mnemonics.swift in Sources */,
 				DBE4A9A729DFB4B600EC186F /* Semordnilap.swift in Sources */,
 				DB371E9E29E94E1C00079236 /* Search In Sorted Matrix.swift in Sources */,
 				DB352B5729D2857F001D44CB /* Strings.swift in Sources */,
