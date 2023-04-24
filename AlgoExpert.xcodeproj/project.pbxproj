@@ -99,6 +99,7 @@
 		DBF81B9C29EF95C6003F8BD1 /* Sum Of Linked List.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF81B9B29EF95C6003F8BD1 /* Sum Of Linked List.swift */; };
 		DBF8D7DA29F23CE000DA9E11 /* Powerset.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF8D7D929F23CE000DA9E11 /* Powerset.swift */; };
 		DBF8D7DC29F2608800DA9E11 /* Phone Number Mnemonics.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF8D7DB29F2608800DA9E11 /* Phone Number Mnemonics.swift */; };
+		DBF8D7DE29F61EE400DA9E11 /* Has Single Cycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF8D7DD29F61EE400DA9E11 /* Has Single Cycle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -234,6 +235,7 @@
 		DBF81B9B29EF95C6003F8BD1 /* Sum Of Linked List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sum Of Linked List.swift"; sourceTree = "<group>"; };
 		DBF8D7D929F23CE000DA9E11 /* Powerset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Powerset.swift; sourceTree = "<group>"; };
 		DBF8D7DB29F2608800DA9E11 /* Phone Number Mnemonics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Phone Number Mnemonics.swift"; sourceTree = "<group>"; };
+		DBF8D7DD29F61EE400DA9E11 /* Has Single Cycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Has Single Cycle.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -710,6 +712,7 @@
 				DBEA070D29F0D62300CA9296 /* Graph.swift */,
 				DBEA070F29F0D84B00CA9296 /* Node.swift */,
 				DBEA070C29F0D61B00CA9296 /* Easy */,
+				DBF8D7DF29F61EF000DA9E11 /* Medium */,
 			);
 			path = Graph;
 			sourceTree = "<group>";
@@ -739,6 +742,14 @@
 				DBEA071E29F0F12A00CA9296 /* Selection Sort.swift */,
 			);
 			path = Easy;
+			sourceTree = "<group>";
+		};
+		DBF8D7DF29F61EF000DA9E11 /* Medium */ = {
+			isa = PBXGroup;
+			children = (
+				DBF8D7DD29F61EE400DA9E11 /* Has Single Cycle.swift */,
+			);
+			path = Medium;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -882,6 +893,7 @@
 				46B4BA2029BDA5C9007856D0 /* 662-Maximum Width of Binary Tree.swift in Sources */,
 				DB352B5329D284B8001D44CB /* Palindrome Check.swift in Sources */,
 				46B4BA1429BD126A007856D0 /* 463-Island Perimeter .swift in Sources */,
+				DBF8D7DE29F61EE400DA9E11 /* Has Single Cycle.swift in Sources */,
 				DB53B6E729E3B8B10028E2CF /* Common Characters.swift in Sources */,
 				46B4BA1229BD0FA8007856D0 /* 66-Plus One .swift in Sources */,
 				DB371E2829E7F2AE00079236 /* Remove Duplicates From Linked List.swift in Sources */,
