@@ -100,6 +100,7 @@
 		DBF8D7DA29F23CE000DA9E11 /* Powerset.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF8D7D929F23CE000DA9E11 /* Powerset.swift */; };
 		DBF8D7DC29F2608800DA9E11 /* Phone Number Mnemonics.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF8D7DB29F2608800DA9E11 /* Phone Number Mnemonics.swift */; };
 		DBF8D7DE29F61EE400DA9E11 /* Has Single Cycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF8D7DD29F61EE400DA9E11 /* Has Single Cycle.swift */; };
+		DBF8D7E229F62C4100DA9E11 /* Task Assignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF8D7E129F62C4100DA9E11 /* Task Assignment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -236,6 +237,7 @@
 		DBF8D7D929F23CE000DA9E11 /* Powerset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Powerset.swift; sourceTree = "<group>"; };
 		DBF8D7DB29F2608800DA9E11 /* Phone Number Mnemonics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Phone Number Mnemonics.swift"; sourceTree = "<group>"; };
 		DBF8D7DD29F61EE400DA9E11 /* Has Single Cycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Has Single Cycle.swift"; sourceTree = "<group>"; };
+		DBF8D7E129F62C4100DA9E11 /* Task Assignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task Assignment.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -387,6 +389,7 @@
 			children = (
 				46185DD129628AB100CF9A5A /* Greedy Algorithms.swift */,
 				46185DD429628AF200CF9A5A /* Easy */,
+				DBF8D7E329F62C5700DA9E11 /* Medium */,
 			);
 			path = "Greedy Algorithms";
 			sourceTree = "<group>";
@@ -455,18 +458,17 @@
 				46548D312622EB45000F9CA7 /* Binary Search Trees */,
 				46185DC529608CE500CF9A5A /* Binary Trees */,
 				46B4BA0E29BD0DB6007856D0 /* Bitwise */,
-				46B4BA1829BD14C5007856D0 /* Collection+additions.swift */,
-				46B4BA2129BE5362007856D0 /* Dumpable.swift */,
 				46B4BA0929BD0C88007856D0 /* Dynamic Programming */,
 				46185DCD2962855500CF9A5A /* Famous Algorithms */,
+				DBEA070B29F0D61400CA9296 /* Graph */,
 				46185DD329628ABF00CF9A5A /* Greedy Algorithms */,
 				46B4BA1E29BD95EE007856D0 /* LinkList */,
 				46B4BA1529BD126F007856D0 /* Matrxix */,
 				DB9BF50427759EE900683590 /* Recursion */,
 				DB371E8929E91C5400079236 /* Searching */,
-				DB352B5429D2850F001D44CB /* Strings */,
-				DBEA070B29F0D61400CA9296 /* Graph */,
 				DBEA071429F0E06B00CA9296 /* Sorting */,
+				DB352B5429D2850F001D44CB /* Strings */,
+				DBF8D7E029F62BFA00DA9E11 /* Unitls */,
 			);
 			path = Swift;
 			sourceTree = "<group>";
@@ -752,6 +754,23 @@
 			path = Medium;
 			sourceTree = "<group>";
 		};
+		DBF8D7E029F62BFA00DA9E11 /* Unitls */ = {
+			isa = PBXGroup;
+			children = (
+				46B4BA1829BD14C5007856D0 /* Collection+additions.swift */,
+				46B4BA2129BE5362007856D0 /* Dumpable.swift */,
+			);
+			path = Unitls;
+			sourceTree = "<group>";
+		};
+		DBF8D7E329F62C5700DA9E11 /* Medium */ = {
+			isa = PBXGroup;
+			children = (
+				DBF8D7E129F62C4100DA9E11 /* Task Assignment.swift */,
+			);
+			path = Medium;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -810,6 +829,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBF8D7E229F62C4100DA9E11 /* Task Assignment.swift in Sources */,
 				DB371E9C29E94A8800079236 /* Find Three Largest Numbers.swift in Sources */,
 				46185DC429608CDF00CF9A5A /* Branch Sums.swift in Sources */,
 				4600D971261E2CD80032BE3A /* Non-Constructible Change.swift in Sources */,
