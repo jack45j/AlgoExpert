@@ -101,6 +101,7 @@
 		DBF8D7DC29F2608800DA9E11 /* Phone Number Mnemonics.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF8D7DB29F2608800DA9E11 /* Phone Number Mnemonics.swift */; };
 		DBF8D7DE29F61EE400DA9E11 /* Has Single Cycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF8D7DD29F61EE400DA9E11 /* Has Single Cycle.swift */; };
 		DBF8D7E229F62C4100DA9E11 /* Task Assignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF8D7E129F62C4100DA9E11 /* Task Assignment.swift */; };
+		DBF8D7F229F773E900DA9E11 /* Valid Starting City.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF8D7F129F773E900DA9E11 /* Valid Starting City.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -238,6 +239,7 @@
 		DBF8D7DB29F2608800DA9E11 /* Phone Number Mnemonics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Phone Number Mnemonics.swift"; sourceTree = "<group>"; };
 		DBF8D7DD29F61EE400DA9E11 /* Has Single Cycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Has Single Cycle.swift"; sourceTree = "<group>"; };
 		DBF8D7E129F62C4100DA9E11 /* Task Assignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task Assignment.swift"; sourceTree = "<group>"; };
+		DBF8D7F129F773E900DA9E11 /* Valid Starting City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Valid Starting City.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -767,6 +769,7 @@
 			isa = PBXGroup;
 			children = (
 				DBF8D7E129F62C4100DA9E11 /* Task Assignment.swift */,
+				DBF8D7F129F773E900DA9E11 /* Valid Starting City.swift */,
 			);
 			path = Medium;
 			sourceTree = "<group>";
@@ -915,6 +918,7 @@
 				46B4BA1429BD126A007856D0 /* 463-Island Perimeter .swift in Sources */,
 				DBF8D7DE29F61EE400DA9E11 /* Has Single Cycle.swift in Sources */,
 				DB53B6E729E3B8B10028E2CF /* Common Characters.swift in Sources */,
+				DBF8D7F229F773E900DA9E11 /* Valid Starting City.swift in Sources */,
 				46B4BA1229BD0FA8007856D0 /* 66-Plus One .swift in Sources */,
 				DB371E2829E7F2AE00079236 /* Remove Duplicates From Linked List.swift in Sources */,
 				DB371EA629EE4F8800079236 /* Remove Kth Node From End.swift in Sources */,

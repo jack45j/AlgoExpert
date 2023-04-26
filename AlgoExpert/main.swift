@@ -77,8 +77,9 @@ tree.right!.right = TreeNode(value: 1)
 
 //print(Program.binaryTree.evaluateExpressionTree(tree))
 
-var nums = [1, 3, 5, 3, 1, 4]
-print(Program.greedy.taskAssignment(3, nums))
+var distances = [5, 25, 15, 10, 15]
+var fuel = [1, 2, 1, 0, 3]
+print(Program.greedy.validStartingCity_bruteForce(distances, fuel, 10))
 
 
 
