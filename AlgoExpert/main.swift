@@ -28,6 +28,8 @@ let matrix = [
     [99, 100, 103, 106, 128, 1004]
 ]
 
+print(Program.arrays.transposeMatrix(matrix))
+
 let head = ListNodeWithPrev(0)
 let node1 = ListNodeWithPrev(1)
 head.next = node1

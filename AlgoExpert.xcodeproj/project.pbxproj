@@ -102,6 +102,7 @@
 		DBF8D7DE29F61EE400DA9E11 /* Has Single Cycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF8D7DD29F61EE400DA9E11 /* Has Single Cycle.swift */; };
 		DBF8D7E229F62C4100DA9E11 /* Task Assignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF8D7E129F62C4100DA9E11 /* Task Assignment.swift */; };
 		DBF8D7F229F773E900DA9E11 /* Valid Starting City.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF8D7F129F773E900DA9E11 /* Valid Starting City.swift */; };
+		F4B616592A396A7E00F1C96F /* Transpose Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B616582A396A7D00F1C96F /* Transpose Matrix.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -240,6 +241,7 @@
 		DBF8D7DD29F61EE400DA9E11 /* Has Single Cycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Has Single Cycle.swift"; sourceTree = "<group>"; };
 		DBF8D7E129F62C4100DA9E11 /* Task Assignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task Assignment.swift"; sourceTree = "<group>"; };
 		DBF8D7F129F773E900DA9E11 /* Valid Starting City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Valid Starting City.swift"; sourceTree = "<group>"; };
+		F4B616582A396A7D00F1C96F /* Transpose Matrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Transpose Matrix.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -602,6 +604,7 @@
 				4600D96A261E2CD80032BE3A /* Tournament Winner.swift */,
 				4600D965261E2CD70032BE3A /* Non-Constructible Change.swift */,
 				46B4BA1129BD0FA8007856D0 /* 66-Plus One .swift */,
+				F4B616582A396A7D00F1C96F /* Transpose Matrix.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -837,6 +840,7 @@
 				46185DC429608CDF00CF9A5A /* Branch Sums.swift in Sources */,
 				4600D971261E2CD80032BE3A /* Non-Constructible Change.swift in Sources */,
 				46B4BA1929BD14C5007856D0 /* Collection+additions.swift in Sources */,
+				F4B616592A396A7E00F1C96F /* Transpose Matrix.swift in Sources */,
 				DB6F1947261BFE37000FD1BD /* First Duplicate Value.swift in Sources */,
 				4600D974261E2CD80032BE3A /* Three Number Sum.swift in Sources */,
 				DB376CA5295D920E001E4EA8 /* Min Height BST.swift in Sources */,
