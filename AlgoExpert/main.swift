@@ -28,7 +28,7 @@ let matrix = [
     [99, 100, 103, 106, 128, 1004]
 ]
 
-print(Program.arrays.transposeMatrix(matrix))
+//print(Program.arrays.transposeMatrix(matrix))
 
 let head = ListNodeWithPrev(0)
 let node1 = ListNodeWithPrev(1)
@@ -77,7 +77,9 @@ tree.right = TreeNode(value: -2)
 tree.right!.left = TreeNode(value: 5)
 tree.right!.right = TreeNode(value: 1)
 
-//print(Program.binaryTree.evaluateExpressionTree(tree))
+tree.dump()
+Program.binaryTree.invertBinaryTree(tree: tree)
+tree.dump()
 
 var distances = [5, 25, 15, 10, 15]
 var fuel = [1, 2, 1, 0, 3]

@@ -103,6 +103,7 @@
 		DBF8D7E229F62C4100DA9E11 /* Task Assignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF8D7E129F62C4100DA9E11 /* Task Assignment.swift */; };
 		DBF8D7F229F773E900DA9E11 /* Valid Starting City.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF8D7F129F773E900DA9E11 /* Valid Starting City.swift */; };
 		F4B616592A396A7E00F1C96F /* Transpose Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B616582A396A7D00F1C96F /* Transpose Matrix.swift */; };
+		F4B6165B2A396EFC00F1C96F /* Invert Binary Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B6165A2A396EFC00F1C96F /* Invert Binary Tree.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -242,6 +243,7 @@
 		DBF8D7E129F62C4100DA9E11 /* Task Assignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task Assignment.swift"; sourceTree = "<group>"; };
 		DBF8D7F129F773E900DA9E11 /* Valid Starting City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Valid Starting City.swift"; sourceTree = "<group>"; };
 		F4B616582A396A7D00F1C96F /* Transpose Matrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Transpose Matrix.swift"; sourceTree = "<group>"; };
+		F4B6165A2A396EFC00F1C96F /* Invert Binary Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Invert Binary Tree.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -435,6 +437,7 @@
 			children = (
 				46B4BA0429BD0828007856D0 /* 107-Binary Tree Level Order Traversal II .swift */,
 				46B4BA1F29BDA5C9007856D0 /* 662-Maximum Width of Binary Tree.swift */,
+				F4B6165A2A396EFC00F1C96F /* Invert Binary Tree.swift */,
 			);
 			path = Medium;
 			sourceTree = "<group>";
@@ -894,6 +897,7 @@
 				DBA6188C2625666500F4987A /* Arrays.swift in Sources */,
 				DBEA070E29F0D62300CA9296 /* Graph.swift in Sources */,
 				DBEA070829EFD92E00CA9296 /* Merging Linked List.swift in Sources */,
+				F4B6165B2A396EFC00F1C96F /* Invert Binary Tree.swift in Sources */,
 				DB376C9D295D6749001E4EA8 /* Sorted Squred Array.swift in Sources */,
 				DB371EA329ECE6E000079236 /* Linked List Construction.swift in Sources */,
 				DBA61892262568DF00F4987A /* Minimum Waiting Time.swift in Sources */,
